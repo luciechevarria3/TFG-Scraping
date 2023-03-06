@@ -1,5 +1,6 @@
 import puppeteer from 'puppeteer';
-import { getExtensionInfo } from './edgeAttributesScraper.js';
+import fs from 'fs';
+import { getExtensionInfo } from './extensionsAttributes.js';
 
 (async () => {
 
@@ -20,8 +21,11 @@ import { getExtensionInfo } from './edgeAttributesScraper.js';
 
   // Conseguir los atributos de la extensión
   const extensionInfo = await getExtensionInfo(page);
-  console.log(extensionInfo);
+
+  // Guardar los datos en un fichero .json
+  fs.writeFileSync('./edgeScraper/extensionInfo.json', extensionInfo);
 
   // Cerramos el navegador
   await browser.close();
+  console.log("[EDGE] - Scraping finalizado.");
 })();
