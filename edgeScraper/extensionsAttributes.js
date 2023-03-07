@@ -10,7 +10,7 @@ export async function getExtensionInfo(page) {
   try {
 
     // Esperamos a que toda la información que queremos cargue en la página
-    await page.waitForSelector('div [role=main] img', {timeout: 4000});
+    await page.waitForSelector('div [role=main] img', {timeout: 2000});
 
     let extensionInfo = await page.evaluate(() => {
       /* Información principal */
@@ -21,14 +21,16 @@ export async function getExtensionInfo(page) {
       }
       const infoDiv = document.querySelector('[role=main]').children[1];  // Guardar la referencia al div que contiene información importante de la extensión
       const name = infoDiv.querySelector('h1').textContent; // Nombre de la extensión
-      const publisher = infoDiv.querySelector('#PublisherWebsiteUri1').textContent; // Nombre del publisher
+      const url = document.URL;
+      const publisher = infoDiv.querySelectorAll('div')[2].children[0].textContent; // Nombre del publisher
       const category = infoDiv.querySelector('#categoryText').textContent;  // Categoría de la extensión
       const rating = infoDiv.querySelectorAll('div')[1].querySelector('div').querySelector('div').querySelector('div').getAttribute('aria-label');  // Rating de la extensión
-      const about = document.querySelector('[role=main]').children[3].querySelector('div').children[1].querySelector('div').querySelector('pre').textContent; // Descripción de la extensión
+      const about = document.querySelector('pre').textContent; // Descripción de la extensión
       const img = infoDiv.querySelector('img').src; // Guardar el src de la imagen de la extensión
       const activeInstalls = infoDiv.querySelector('#activeInstallText').textContent.replace(/[\u202A\u202C]/g,''); // Número de instalaciones activas
       const extension = {
         name: name,
+        url: url,
         publisher: publisher,
         category: category,
         rating: rating,
@@ -42,8 +44,8 @@ export async function getExtensionInfo(page) {
     return extensionInfo;
 
   } catch (error) {
-    const pageName = await page.title()
-    console.error("ERROR: extensionsAttributes.js - getExtensionInfo(). - " + pageName);
-    return {errorPage: pageName}
+    const pageURL = await page.url()
+    console.error("ERROR: extensionsAttributes.js - getExtensionInfo(). - " + pageURL);
+    return {errorPage: pageURL}
   }
 }

@@ -1,51 +1,54 @@
-import puppeteer from 'puppeteer';
-import fs from 'fs';
-import { getExtensionInfo } from './extensionsAttributes.js';
+import puppeteer from "puppeteer";
+import { Cluster } from "puppeteer-cluster";
+import fs from "fs";
+import { getExtensionInfo } from "./extensionsAttributes.js";
 
 (async () => {
-
-  // URL para hacer una prueba: Editor Microsoft
-  const url = "https://microsoftedge.microsoft.com/addons/detail/editor-microsoft-correct/hokifickgkhplphjiodbggjmoafhignh";
-
-  // Abrir el browser en modo incógnito
-  const browser = await puppeteer.launch({
-    headless: false,
-  });
-  const context = await browser.createIncognitoBrowserContext();
-
-  // Creamos una nueva pestaña de incógnito
-  const page = await context.newPage();
-
-  // PROCESO DE OBTENCIÓN DE LINKS
   // Conseguir los links de edgeExtensions.json
-  let urls = fs.readFileSync('edgeScraper/edgeExtensions.json', 'utf-8');
+  let urls = fs.readFileSync("edgeScraper/edgeExtensions.json", "utf-8");
 
   // Parsearlos a un objeto Javascript
   urls = JSON.parse(urls);
-  urls = urls['links']; // Ahora tenemos la lista de links en la variable urls
+  urls = urls["links"]; // Ahora tenemos la lista de links en la variable urls
 
-  let extensionsInfo = [];  // Lista que guardará la información de cada extensión
-  // Proceso de viajar a cada página de extensión y guardar su información
-  for (let i = 0; i < 5; i++) {
+  // PUPPETEER-CLUSTER: opciones de arranque
+  const cluster = await Cluster.launch({
+    concurrency: Cluster.CONCURRENCY_PAGE, // Incognito pages
+    maxConcurrency: 5, // Cuantas extensiones scrapear en cada repetición
+    puppeteerOptions: {
+      headless: false,
+      defaultViewport: false,
+    },
+  });
 
-    // Viajamos a la página mediante la url
-    await page.goto(urls[i]);
-  
+  // COMIENZO DEL PROCESO DE SCRAPEO
+  let extensionsInfo = []; // Lista que guardará la información de cada extensión
+  await cluster.task(async ({ page, data: url }) => {
+    await page.goto(url);
+
     // Conseguir los atributos de la extensión
     const extensionInfo = await getExtensionInfo(page);
 
     // Añadir la información a la lista
     extensionsInfo.push(extensionInfo);
+
+  });
+
   
+
+  // Metemos en la queue todas las páginas de las extensiones
+  for (let i = 0; i < 15; i++) {
+    cluster.queue(urls[i]);
   }
+
+  await cluster.idle();
+  await cluster.close();
 
   // Preparar la lista para añadirla a extensionsInfo.json
   extensionsInfo = JSON.stringify(extensionsInfo, 0, 2);
 
   // Guardar los datos en un fichero .json
-  fs.writeFileSync('./edgeScraper/extensionInfo.json', extensionsInfo);
-
-  // Cerramos el navegador
-  await browser.close();
-  console.log("[EDGE] - Scraping finalizado.");
+  fs.writeFileSync("./edgeScraper/extensionInfo.json", extensionsInfo);
+  
+  console.log("[EDGE] == Scraping finalizado.");
 })();
