@@ -52,5 +52,5 @@ console.time("Tiempo para scrapear " + extensions + " extensiones");
   fs.writeFileSync("./edgeScraper/extensionInfo.json", extensionsInfo);
   
   console.log("[EDGE] == Scraping finalizado.");
-console.timeEnd("Tiempo para scrapear " + extensions + " extensiones");
+  console.timeEnd("Tiempo para scrapear " + extensions + " extensiones");
 })();
