@@ -3,6 +3,8 @@ import { Cluster } from "puppeteer-cluster";
 import fs from "fs";
 import { getExtensionInfo } from "./extensionsAttributes.js";
 
+const extensions = 100; // Número de extensiones que se quiere scrapear
+
 console.time("Tiempo para scrapear " + extensions + " extensiones");
 (async () => {
   // Conseguir los links de edgeExtensions.json
@@ -37,7 +39,6 @@ console.time("Tiempo para scrapear " + extensions + " extensiones");
 
   
   // Metemos en la queue todas las páginas de las extensiones
-  const extensions = 100;
   for (let i = 0; i < extensions; i++) {
     cluster.queue(urls[i]);
   }

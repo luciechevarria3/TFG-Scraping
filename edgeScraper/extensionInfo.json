@@ -70,6 +70,16 @@
     "activeInstalls": "119 usuarios"
   },
   {
+    "name": "Gesture Based Scroll (Using AI)",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/gesture-based-scroll-usi/aalcccmebkgggfcbibiaddngcaipmjnd",
+    "publisher": "Leonardo Compson",
+    "category": "Productividad",
+    "rating": "Calificado con 0 de 5 estrellas por 0 usuarios.",
+    "about": "Gesture-Based Scroll is an extension that lets you scroll a page with hand or facial gestures (without using a mouse or keyboard).\n\nBefore using this addon you need to train it first. Please read the support page to get more info on how to use the addon. Once the addon is fully trained, please click on the - Start - button and make gestures (Up, Down, and Stop) in front of the camera to scroll the active tab. Also, make sure to place your face/hand exactly in front of the camera (within the grey rectangle). As long as the camera is ON, the addon will look for your gestures and take action accordingly. If you want to stop the inferring process, please click on the - Stop - button once.\n\nNote: This addon is using the new AI engine called TensorFlow. Please visit the (https://www.tensorflow.org/js/) page to get more info about this new technology.\n\nTo report bugs, please fill out the bug report form on the addon's homepage (https://mybrowseraddon.com/gesture-based-scroll.html).\n",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.51256.f91445a4-6544-4e42-85ba-e67e26bb35ce.dfc3d106-1a55-4a1f-b715-18448da0ee2c.268464bf-7313-4eb9-a6f8-c9b2b3c78ff3?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "208 usuarios"
+  },
+  {
     "name": "Canned Responses for Jira",
     "url": "https://microsoftedge.microsoft.com/addons/detail/canned-responses-for-jira/aaihcmfhjhpblfehcjfgadlcaokkaomd",
     "publisher": "Spartez Software sp. z o.o. sp.k.",
@@ -88,16 +98,6 @@
     "about": "Display a QR code for visiting page.\nThen continue to read the same web page on a mobile device by scanning the QR code.\n\nIt provides two more additional commands in context menu.\n\n1. Generate a QR code for free selected text in a web page.\n2. Scan a QR code image.\n",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.25352.0fef1f00-e207-49c0-b1b8-0a8d0e79a6fe.72d70af4-3052-4e91-bf1e-7025f1510cdc.11aed005-8125-431e-b221-0639a8eb0e5d?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "3,000+ usuarios"
-  },
-  {
-    "name": "Gesture Based Scroll (Using AI)",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/gesture-based-scroll-usi/aalcccmebkgggfcbibiaddngcaipmjnd",
-    "publisher": "Leonardo Compson",
-    "category": "Productividad",
-    "rating": "Calificado con 0 de 5 estrellas por 0 usuarios.",
-    "about": "Gesture-Based Scroll is an extension that lets you scroll a page with hand or facial gestures (without using a mouse or keyboard).\n\nBefore using this addon you need to train it first. Please read the support page to get more info on how to use the addon. Once the addon is fully trained, please click on the - Start - button and make gestures (Up, Down, and Stop) in front of the camera to scroll the active tab. Also, make sure to place your face/hand exactly in front of the camera (within the grey rectangle). As long as the camera is ON, the addon will look for your gestures and take action accordingly. If you want to stop the inferring process, please click on the - Stop - button once.\n\nNote: This addon is using the new AI engine called TensorFlow. Please visit the (https://www.tensorflow.org/js/) page to get more info about this new technology.\n\nTo report bugs, please fill out the bug report form on the addon's homepage (https://mybrowseraddon.com/gesture-based-scroll.html).\n",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.51256.f91445a4-6544-4e42-85ba-e67e26bb35ce.dfc3d106-1a55-4a1f-b715-18448da0ee2c.268464bf-7313-4eb9-a6f8-c9b2b3c78ff3?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "208 usuarios"
   },
   {
     "name": "XML Formatter",
@@ -123,10 +123,10 @@
     "errorPage": "https://microsoftedge.microsoft.com/addons/detail/aambffnelnjkjmdbmplmonecgiaieapn PÁGINA NO DISPONIBLE"
   },
   {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/aaoanommapoejphbejiocpndijhmlahl PÁGINA NO DISPONIBLE"
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/aapapnjalmbdfhglkpclfammfpjjoeej PÁGINA NO DISPONIBLE"
   },
   {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/aapapnjalmbdfhglkpclfammfpjjoeej PÁGINA NO DISPONIBLE"
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/aaoanommapoejphbejiocpndijhmlahl PÁGINA NO DISPONIBLE"
   },
   {
     "errorPage": "https://microsoftedge.microsoft.com/addons/detail/aapekjkggfgmhhkfiaaedglpmnppjcaj PÁGINA NO DISPONIBLE"
@@ -178,16 +178,6 @@
     "activeInstalls": "90,000+ usuarios"
   },
   {
-    "name": "Alitools, su asistente de compras",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/alitools-su-asistente-de/abidfmpblafnglcjachhodnellaopilc",
-    "publisher": "Big Data Technologies",
-    "category": "Compras",
-    "rating": "Calificado con 4,5 de 5 estrellas por 25 usuarios.",
-    "about": "Historial de precios durante 6 meses, productos similares, encontrar artículo por imagen, valoración del vendedor.\nVarias razones para descargar e instalar Alitools:\n\n- Compruebe la valoración del vendedor antes de comprar para evitar malos vendedores.\n- Le permite encontrar productos por foto. Esencial para ropa, calzado y accesorios.\n- Encuentre productos similares. Encuentre opciones más baratas o con envío gratuito de otro vendedor.\n- Alitools le ayudará a rastrear el paquete desde China y le notificará los cambios en su estado.\n- Evite descuentos artificiales, especialmente durante las grandes ofertas: 11.11, Black Friday y Cyber ​​Monday.\n- Compruebe cómo ha cambiado el precio de un producto durante los últimos 6 meses. Admite rublos, dólares y otras 18 divisas.\n- Recibir notificaciones si el producto ha bajado de precio.\n- Vea fotos de productos reales extraídas de las opiniones de los clientes.\n- Encuentre el producto en el historial de navegación.\n\nAlitools puede sincronizar datos entre ordenadores. Por ejemplo, en el trabajo y en casa. Para ello, simplemente cree una cuenta.\n\nSiempre estamos a su disposición y estaremos encantados de responder a sus preguntas. Formulario de contacto: https://alitools.io/es/feedback.\n\nAl instalar la extensión Alitools para Microsoft Edge, acepta los términos del «Acuerdo de usuario» y permite que se le redirija a los enlaces del programa de afiliados de AliExpress. Acuerdo de usuario: https://alitools.io/es/info/agreement.\n\nPara que las funciones de la extensión funcionen y para poder mejorar el producto, recopilamos datos anónimos sobre cómo usa AliExpress y otras populares tiendas online. Puede encontrar más información sobre la privacidad en: https://alitools.io/es/info/policy.",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.53485.94ab1db6-1685-443b-928e-fe72b313c9fd.aee371a7-651d-4027-a805-bb400607fa52.abd1a203-4cd7-434d-af3f-033ba6b7ffa6?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "30,000+ usuarios"
-  },
-  {
     "name": "MINCHEV.EU",
     "url": "https://microsoftedge.microsoft.com/addons/detail/mincheveu/abhmpccnckjkomiphabgfkfkjookdbgp",
     "publisher": "Димитър Минчев",
@@ -198,6 +188,16 @@
     "activeInstalls": "15 usuarios"
   },
   {
+    "name": "Alitools, su asistente de compras",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/alitools-su-asistente-de/abidfmpblafnglcjachhodnellaopilc",
+    "publisher": "Big Data Technologies",
+    "category": "Compras",
+    "rating": "Calificado con 4,5 de 5 estrellas por 25 usuarios.",
+    "about": "Historial de precios durante 6 meses, productos similares, encontrar artículo por imagen, valoración del vendedor.\nVarias razones para descargar e instalar Alitools:\n\n- Compruebe la valoración del vendedor antes de comprar para evitar malos vendedores.\n- Le permite encontrar productos por foto. Esencial para ropa, calzado y accesorios.\n- Encuentre productos similares. Encuentre opciones más baratas o con envío gratuito de otro vendedor.\n- Alitools le ayudará a rastrear el paquete desde China y le notificará los cambios en su estado.\n- Evite descuentos artificiales, especialmente durante las grandes ofertas: 11.11, Black Friday y Cyber ​​Monday.\n- Compruebe cómo ha cambiado el precio de un producto durante los últimos 6 meses. Admite rublos, dólares y otras 18 divisas.\n- Recibir notificaciones si el producto ha bajado de precio.\n- Vea fotos de productos reales extraídas de las opiniones de los clientes.\n- Encuentre el producto en el historial de navegación.\n\nAlitools puede sincronizar datos entre ordenadores. Por ejemplo, en el trabajo y en casa. Para ello, simplemente cree una cuenta.\n\nSiempre estamos a su disposición y estaremos encantados de responder a sus preguntas. Formulario de contacto: https://alitools.io/es/feedback.\n\nAl instalar la extensión Alitools para Microsoft Edge, acepta los términos del «Acuerdo de usuario» y permite que se le redirija a los enlaces del programa de afiliados de AliExpress. Acuerdo de usuario: https://alitools.io/es/info/agreement.\n\nPara que las funciones de la extensión funcionen y para poder mejorar el producto, recopilamos datos anónimos sobre cómo usa AliExpress y otras populares tiendas online. Puede encontrar más información sobre la privacidad en: https://alitools.io/es/info/policy.",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.53485.94ab1db6-1685-443b-928e-fe72b313c9fd.aee371a7-651d-4027-a805-bb400607fa52.abd1a203-4cd7-434d-af3f-033ba6b7ffa6?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "30,000+ usuarios"
+  },
+  {
     "name": "Redirect AMP to HTML",
     "url": "https://microsoftedge.microsoft.com/addons/detail/redirect-amp-to-html/abjhjmfkmdfggjomfpojjfcehhkambcc",
     "publisher": "Aleksandersen",
@@ -206,9 +206,6 @@
     "about": "Automatically redirects any Accelerated Mobile Page (AMP) pages to their regular HTML equivalent.\n\nWhen you see an AMP page, you’re likely seeing a page served directly by Bing or Google who can suck in information about what you do on that page. Keep the web decentralized and say “No!” to search engines that want to take control over the web.\n\nAMP pages are designed for small-screen devices and often don’t translate well to larger screens. The extension can be especially useful if you receive links from people who’re on their mobile devices while you’re on your desktop computer.",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.8984.3434b0bb-75f5-40d7-92db-33ef502c8259.b9b0db3e-7306-468b-a20b-818904f259cd.54d99d78-dbe3-4bc3-9f2c-c31badf53173?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "1,000+ usuarios"
-  },
-  {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/abiedibeiolkfdhdnmlcfmhknoilofcc PÁGINA NO DISPONIBLE"
   },
   {
     "name": "Timer, Alarm & Stopwatch",
@@ -229,6 +226,9 @@
     "about": "让任意网页成为笔记本，高亮关键字、添加笔记、网页快照。\n免费、不需要登录、支持离线运行\n",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.40942.9603a6b4-62aa-423e-af7b-a38728daff86.a2ccba9f-9016-49dc-bd85-cdeba4ef4514.99d10118-7d42-47e9-9a9a-c8c1fe3faad8?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "10,000+ usuarios"
+  },
+  {
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/abiedibeiolkfdhdnmlcfmhknoilofcc PÁGINA NO DISPONIBLE"
   },
   {
     "name": "Haspit",
@@ -261,6 +261,16 @@
     "activeInstalls": "337 usuarios"
   },
   {
+    "name": "CFCA CryptoKit.ZSYJR Extension",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/cfca-cryptokitzsyjr-exte/acbonnnbpepdmannhhjbipjdnhndneme",
+    "publisher": "深圳中顺易金融服务有限公司",
+    "category": "Herramientas de desarrollo",
+    "rating": "Calificado con 0 de 5 estrellas por 0 usuarios.",
+    "about": "为深圳中顺易金融有限公司定制的适用于 edge最新机制的用于 CFCA 证书应用扩展程序。\n安装该扩展后，用户可以在深圳中顺易金融有限公司开发的后台系统使用 CFCA U-key 实现 U-key 证书+用户密码多因素认证，以满足用户安全性要求。",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.2926.5c316b66-7087-4728-923f-303243a9cc74.4e45291e-a015-49ae-a491-2b9fe1d44b60.b11e1f51-996d-4e6e-abae-03b4273e2013?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "29 usuarios"
+  },
+  {
     "name": "Drag-Free(Mouse-Drag & Mouse-RightClick)",
     "url": "https://microsoftedge.microsoft.com/addons/detail/dragfreemousedrag-mo/accgkllaohlngfgeanampnlcpljihjgf",
     "publisher": "김기용",
@@ -269,19 +279,6 @@
     "about": "- Right click enable.\n\nAllows you to use the feature on a site that has been prevented from dragging the mouse and right-clicking the mouse.\n \n- When the \"Automatic\" state is set to \"Manual\", the operation is always performed.\n- The hot key is set to \"Alt + 1\" by default and you can change the hot key by clicking the \"Defining shortcut\" button.\n\n* mouse right-click / mouse drag",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.25632.0f80f085-dfaa-4255-ad55-6ed0032f8ae5.d2b7ef8c-b649-43cf-a054-2352be36bd3f.529bd8cc-d20f-4ff5-bd3d-249edbd318c6?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "50,000+ usuarios"
-  },
-  {
-    "name": "CFCA CryptoKit.ZSYJR Extension",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/cfca-cryptokitzsyjr-exte/acbonnnbpepdmannhhjbipjdnhndneme",
-    "publisher": "深圳中顺易金融服务有限公司",
-    "category": "Herramientas de desarrollo",
-    "rating": "Calificado con 0 de 5 estrellas por 0 usuarios.",
-    "about": "为深圳中顺易金融有限公司定制的适用于 edge最新机制的用于 CFCA 证书应用扩展程序。\n安装该扩展后，用户可以在深圳中顺易金融有限公司开发的后台系统使用 CFCA U-key 实现 U-key 证书+用户密码多因素认证，以满足用户安全性要求。",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.2926.5c316b66-7087-4728-923f-303243a9cc74.4e45291e-a015-49ae-a491-2b9fe1d44b60.b11e1f51-996d-4e6e-abae-03b4273e2013?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "21 usuarios"
-  },
-  {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/acbjnlmhloafebcaiiffemnogonnkkpc PÁGINA NO DISPONIBLE"
   },
   {
     "name": "Webcam Recorder",
@@ -294,6 +291,9 @@
     "activeInstalls": "939 usuarios"
   },
   {
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/acbjnlmhloafebcaiiffemnogonnkkpc PÁGINA NO DISPONIBLE"
+  },
+  {
     "name": "Pxlet Bookmarklet",
     "url": "https://microsoftedge.microsoft.com/addons/detail/pxlet-bookmarklet/acdadibpngdnepfghkidpijpjfljccah",
     "publisher": "Pi Ke",
@@ -302,16 +302,6 @@
     "about": "This is an extension to help you bookmark any link into Pxlet.com\n\nThis is an extension for you to bookmark any link online and stored in Pxlet.com so that you can read it later anywhere anytime",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.14654.2c3268c1-095d-4495-b43a-27af2dff857b.fc07b57f-8d0d-4cc6-b16c-2c0e0e11df32.85c40826-02f9-4f39-9aff-6b242d737c0a?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "62 usuarios"
-  },
-  {
-    "name": "Clean Guru - cache & history cleaner",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/clean-guru-cache-hist/aceindggcajccjohogepkaliphokbfam",
-    "publisher": "Top_Ext",
-    "category": "Productividad",
-    "rating": "Calificado con 5 de 5 estrellas por 1 usuarios.",
-    "about": "Fasten Chrome with Clean Guru extension\n\nClean Guru is a simple utility to clean browser data, cache, cookies, downloads and increase an overall browser speed.\n\nClick \"add to chrome\" button to run Chrome Clean Guru and flush the browser history without any efforts.\n\nMy Google Chrome is getting too slow. What can I do?\nThe problem with all the browsers, whether it’s internet explorer or Google Chrome, is that they become slow and clunky after a period of time. They take time to start up to, to load websites and to open and close tabs. This is when one should consider cleaning up the browser and getting rid of the cache, history etc.\n\nChrome Clean Guru is a useful browser extension that helps you quickly clean up the browser. and It help to delete all traces of your online activity to protect your privacy.\nClean Guru is very easy to use and fast.\n\nClean up browsing data from a user's local profile.\nMake your Chrome browser more faster and Protect your personal data!!\nThis extension supports Chrome 19 and later.\n\nFew key features:\n\n+ Instant removal with one-click \n+ Clear Chrome history  \n+ Clear download history\n+ Empty the cache\n+ Automatic data remove\n+ Delete cookies and other site and plug-in data\n+ Clear saved passwords\n+ Clear saved form data\n+ Ability to choose time period\n+ Dark mode\n+ Quick clear button \n\nThis lightweight extension enables you to do all that mentioned above instantly, \nwith one click on the Eraser icon in the Chrome toolbar.\n\nNew feature release!!!\nWe now support one-click \"Close All Windows and Clear All Cache\".",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.16342.1d65ae40-0cd3-458c-81bb-ef10581a2d80.a133e97c-4440-42db-a282-1f5242982c3a.144d20e5-1f38-4f15-a40a-b003b4b56787?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "1,000+ usuarios"
   },
   {
     "name": "Administrador de JavaScript",
@@ -324,14 +314,14 @@
     "activeInstalls": "10,000+ usuarios"
   },
   {
-    "name": "Modo oscuro para YouTube ™",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/modo-oscuro-para-youtube-/acgleclafbbegjaehobmlmgogjkidodj",
-    "publisher": "Free Software Apps",
-    "category": "Entretenimiento",
-    "rating": "Calificado con 2,8 de 5 estrellas por 4 usuarios.",
-    "about": "Esta extensión instala un tema oscuro que convierte a Youtube en negro con solo hacer clic en un botón. Simplemente instale esta extensión\npara habilitar el modo oscuro en Youtube. Proteja sus ojos por la noche cambiando el color de fondo de Youtube a negro.\n\nEsta aplicación te permite activar / desactivar el modo oscuro para Youtube (también conocido como modo nocturno, tema oscuro). Dale un poco de descanso a tus ojos (sobre todo por la noche) e instala esta extensión.\n\nUna vez que instale esta extensión, para activar / desactivar el modo oscuro, lo que debe hacer es hacer clic en el botón deslizante superior izquierdo en Youtube.com.\n",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.6330.c852f738-7b9f-45fa-ae95-b87b5d9361d0.d39abca5-fa15-4b03-beff-261bed184723.1973f83b-b9fb-4c17-a98a-6ecf7f958b65?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "761 usuarios"
+    "name": "Clean Guru - cache & history cleaner",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/clean-guru-cache-hist/aceindggcajccjohogepkaliphokbfam",
+    "publisher": "Top_Ext",
+    "category": "Productividad",
+    "rating": "Calificado con 5 de 5 estrellas por 1 usuarios.",
+    "about": "Fasten Chrome with Clean Guru extension\n\nClean Guru is a simple utility to clean browser data, cache, cookies, downloads and increase an overall browser speed.\n\nClick \"add to chrome\" button to run Chrome Clean Guru and flush the browser history without any efforts.\n\nMy Google Chrome is getting too slow. What can I do?\nThe problem with all the browsers, whether it’s internet explorer or Google Chrome, is that they become slow and clunky after a period of time. They take time to start up to, to load websites and to open and close tabs. This is when one should consider cleaning up the browser and getting rid of the cache, history etc.\n\nChrome Clean Guru is a useful browser extension that helps you quickly clean up the browser. and It help to delete all traces of your online activity to protect your privacy.\nClean Guru is very easy to use and fast.\n\nClean up browsing data from a user's local profile.\nMake your Chrome browser more faster and Protect your personal data!!\nThis extension supports Chrome 19 and later.\n\nFew key features:\n\n+ Instant removal with one-click \n+ Clear Chrome history  \n+ Clear download history\n+ Empty the cache\n+ Automatic data remove\n+ Delete cookies and other site and plug-in data\n+ Clear saved passwords\n+ Clear saved form data\n+ Ability to choose time period\n+ Dark mode\n+ Quick clear button \n\nThis lightweight extension enables you to do all that mentioned above instantly, \nwith one click on the Eraser icon in the Chrome toolbar.\n\nNew feature release!!!\nWe now support one-click \"Close All Windows and Clear All Cache\".",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.16342.1d65ae40-0cd3-458c-81bb-ef10581a2d80.a133e97c-4440-42db-a282-1f5242982c3a.144d20e5-1f38-4f15-a40a-b003b4b56787?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "1,000+ usuarios"
   },
   {
     "name": "Microsoft Bing Search Engine",
@@ -344,6 +334,16 @@
     "activeInstalls": "8,000+ usuarios"
   },
   {
+    "name": "Modo oscuro para YouTube ™",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/modo-oscuro-para-youtube-/acgleclafbbegjaehobmlmgogjkidodj",
+    "publisher": "Free Software Apps",
+    "category": "Entretenimiento",
+    "rating": "Calificado con 2,8 de 5 estrellas por 4 usuarios.",
+    "about": "Esta extensión instala un tema oscuro que convierte a Youtube en negro con solo hacer clic en un botón. Simplemente instale esta extensión\npara habilitar el modo oscuro en Youtube. Proteja sus ojos por la noche cambiando el color de fondo de Youtube a negro.\n\nEsta aplicación te permite activar / desactivar el modo oscuro para Youtube (también conocido como modo nocturno, tema oscuro). Dale un poco de descanso a tus ojos (sobre todo por la noche) e instala esta extensión.\n\nUna vez que instale esta extensión, para activar / desactivar el modo oscuro, lo que debe hacer es hacer clic en el botón deslizante superior izquierdo en Youtube.com.\n",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.6330.c852f738-7b9f-45fa-ae95-b87b5d9361d0.d39abca5-fa15-4b03-beff-261bed184723.1973f83b-b9fb-4c17-a98a-6ecf7f958b65?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "761 usuarios"
+  },
+  {
     "name": "USSeek Enhanced Search",
     "url": "https://microsoftedge.microsoft.com/addons/detail/usseek-enhanced-search/acgmpifiemmdpjeolnmjjpakfnfhcmgf",
     "publisher": "usseek llc",
@@ -352,6 +352,16 @@
     "about": "The USSEEK extension will set your home page to Usseek.com and will update your new tab search. When you search on Usseek.com you will see search results for the type of search you perform, including Web, Images, Videos, and Businesses. \n\nUsseek believes in helping our users find and support local businesses. We believe that supporting and buying local is how we create strong communities and support our local economies. When you install the Usseek Enhanced Search extension, you will be able to use the Usseek search site every time you open your browser, as a default. \n\nPlease reach out with any feature requests or bug reports- Our goal is to elevate Usseek to one of the top search sites, and we want to help our users as much as possible to provide the maximum benefit for using our site!",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.32434.77a19aec-870f-4c62-9a2b-37d92c75019b.bc38ac2e-f9a7-4c3d-acfb-58343ad4fb84.a04fa80f-044a-4a53-a782-e0a2938827e5?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "144 usuarios"
+  },
+  {
+    "name": "Taobao Helper",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/taobao-helper/acjfknjielnapamlkdhmahpipkehpepn",
+    "publisher": "CrazyOrr",
+    "category": "Compras",
+    "rating": "Calificado con 5 de 5 estrellas por 1 usuarios.",
+    "about": "Taobao Helper gives you quick access to Taobao, just click this extension's icon, input what you want to search in the popup window, then click 'Search' button or hit Enter key, you're all set. By the way, you can get coupons from Taobao and other providers along the way.",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.45472.2d18b878-6ed6-41a4-9ec5-29cee9da8c34.8ec6b7ac-d21e-4357-83b6-b0d29e8a599f.5d4802cc-91c6-4977-bbd4-4c129304b3f7?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "1,000+ usuarios"
   },
   {
     "name": "Giveback by FutureFuel.io",
@@ -374,14 +384,7 @@
     "activeInstalls": "10,000+ usuarios"
   },
   {
-    "name": "Taobao Helper",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/taobao-helper/acjfknjielnapamlkdhmahpipkehpepn",
-    "publisher": "CrazyOrr",
-    "category": "Compras",
-    "rating": "Calificado con 5 de 5 estrellas por 1 usuarios.",
-    "about": "Taobao Helper gives you quick access to Taobao, just click this extension's icon, input what you want to search in the popup window, then click 'Search' button or hit Enter key, you're all set. By the way, you can get coupons from Taobao and other providers along the way.",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.45472.2d18b878-6ed6-41a4-9ec5-29cee9da8c34.8ec6b7ac-d21e-4357-83b6-b0d29e8a599f.5d4802cc-91c6-4977-bbd4-4c129304b3f7?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "1,000+ usuarios"
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/acioijkkdkpnfandojlmhgiddajdbned PÁGINA NO DISPONIBLE"
   },
   {
     "name": "零维",
@@ -394,9 +397,6 @@
     "activeInstalls": "1,000+ usuarios"
   },
   {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/acioijkkdkpnfandojlmhgiddajdbned PÁGINA NO DISPONIBLE"
-  },
-  {
     "name": "FPL Tools",
     "url": "https://microsoftedge.microsoft.com/addons/detail/fpl-tools/aclaccopnmcpfobgkjibbimamfbcodbd",
     "publisher": "AmitChauhan",
@@ -407,6 +407,9 @@
     "activeInstalls": "2,000+ usuarios"
   },
   {
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/ackodolhpbogckmcjkfdcgifhigeghkg PÁGINA NO DISPONIBLE"
+  },
+  {
     "name": "Sonarr/Radarr/Lidarr autosearch",
     "url": "https://microsoftedge.microsoft.com/addons/detail/sonarrradarrlidarr-auto/aclgfcjonnhgdkinhmmafdbkpegfcnal",
     "publisher": "Rob Green software",
@@ -414,7 +417,7 @@
     "rating": "Calificado con 0 de 5 estrellas por 0 usuarios.",
     "about": "This is an extension for chromium browsers that:\n\n1. Populates the search field on Sonarr, Radarr or Lidarr with any text added to the end of the search URL and then triggers the input event on the search field to fire off a search request. \n\n2. When right-clicking selected text on any page this extension exposes a context menu with entries for Sonarr, Radarr and Lidarr that allow a direct search for the selected text in a new tab.\n\nThe extension an be disabled from the extension's popup and each context menu item can be disabled from the settings page.",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.39677.e18fb5e2-7120-410b-90c4-90fcac73a4e3.a453a967-665c-460b-b449-7dfc5e3ee9dc.29b3484d-1c93-4db8-9746-450ff2dc428c?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "339 usuarios"
+    "activeInstalls": "374 usuarios"
   },
   {
     "name": "小菜云客服",
@@ -427,9 +430,6 @@
     "activeInstalls": "96 usuarios"
   },
   {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/ackodolhpbogckmcjkfdcgifhigeghkg PÁGINA NO DISPONIBLE"
-  },
-  {
     "name": "Selection Search",
     "url": "https://microsoftedge.microsoft.com/addons/detail/selection-search/acnbnghploonojdneaapglimokkefngg",
     "publisher": "Pitmairen",
@@ -438,16 +438,6 @@
     "about": "This extension let you use text you have selected in a web page to search in various search engines.\n\nThe extension is highly configurable and let you customize what search engines to use, the look of the search menu and much more. \n\n*NOTE*: This is the first released version of the extension for Microsoft Edge. Please report any issues you might find so we can try to fix it. \n\n",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.15211.55f6db77-503c-47cf-bc88-92fe7225e4e4.81e249a6-4c00-48c6-8893-37c4985eb890.e411de5f-527f-4d94-8e74-7356d22292b8?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "4,000+ usuarios"
-  },
-  {
-    "name": "Cyclonis Password Manager",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/cyclonis-password-manager/acnjjnipnlbppelaaoekjfacdbpibjol",
-    "publisher": "Cyclonis",
-    "category": "Productividad",
-    "rating": "Calificado con 5 de 5 estrellas por 1 usuarios.",
-    "about": "Cyclonis Password Manager gives you premium features at no charge - it’s FREE! No credit card required! No trial expiration! It’s the full-featured version!\r\n\r\nIMPORTANT: This extension will only work if you have the Cyclonis Password Manager desktop application already installed on your computer. You may download the FREE \"Cyclonis Password Manager Desktop\" application from the Microsoft Store.\r\n\r\n \r\nUsing just a single password for multiple online accounts? Is keeping track of your many passwords an impossible task? With Cyclonis Password Manager, you can manage, organize and control all your passwords in one central place. Cyclonis Password Manager stores your data in a personal vault, that is encrypted with AES-256 bit, an encryption algorithm used by governments, financial institutions, and in military applications. \r\n\r\nCyclonis Password Manager encrypts your vault using your master password. Your master password is for your eyes only – your data cannot even be accessed by Cyclonis staff or servers as we never transmit or store your master password.\r\n\r\nSigning up to a new social media website? This means that you should create a new and unique password. Let Cyclonis Password Manager take care of this tedious process for you. Using Cyclonis Password Manager’s password generator, you can create complex passwords that are designed to help avert the most popular password-cracking methods. Of course, no password, no matter how complex, can be 100% guaranteed against being compromised. Best of all, you can save your new social media account’s login details to your Cyclonis Password Manager vault, accessible directly from your web browser. The next time you visit that social media website, Cyclonis Password Manager’s browser extension can auto-fill your username and password, and even log you in automatically.\r\n\r\nThere's no point in having your data consolidated if you can't easily access it. This is where the Cyclonis Password Manager browser extension comes in. It automatically connects to the Cyclonis Password Manager desktop application and enters your login details for you for each website that you have stored in your vault, saving you time and the frustration of having to manually type your login details. Just navigate to the website and let Cyclonis Password Manager’s browser extension automatically fill in the username and password fields. It can even be configured to log you in automatically by activating the “Sign in” button. There’s no typing, no copying, and no pasting.\r\n\r\nKey Features: \r\n\r\n- View, add, edit, delete, and manage your passwords from a searchable vault.\r\n- Use your passwords in multiple browsers on multiple devices.\r\n- Search your vault and navigate to your favorite websites with just a few clicks.\r\n- Log in to your favorite websites automatically. \r\n- Option to enable two-factor authentication (2FA) for your Cyclonis Password Manager account.\r\n- The Cyclonis Password Manager Password Generator helps you create complex passwords and update your website accounts.\r\n- The Cyclonis Password Manager Password Analyzer checks the complexity and strength of your website account passwords.\r\n-  Integrates with your browser to enable you to store your usernames and passwords to your Cyclonis Password Manager vault with a few clicks.\r\n- Automatically fill in long registration forms and checkout pages with the profile data that you have stored in your vault.\r\n- Import your website account usernames and passwords from other password managers.\r\n- View and edit your website accounts, Private Notes, personal profiles, ID documents, credit card details, bank account information and other sensitive data.",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.60977.4c37d8bb-2671-4bf2-a068-c5678d443e06.4663f71f-6c90-4dba-b720-cf25f5b5fb76.8318b97c-26bd-4a8c-a9ad-b1e0e13e20b8?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "1,000+ usuarios"
   },
   {
     "name": "Dejar confirmación para Google Meet ™",
@@ -460,6 +450,16 @@
     "activeInstalls": "62 usuarios"
   },
   {
+    "name": "Cyclonis Password Manager",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/cyclonis-password-manager/acnjjnipnlbppelaaoekjfacdbpibjol",
+    "publisher": "Cyclonis",
+    "category": "Productividad",
+    "rating": "Calificado con 5 de 5 estrellas por 1 usuarios.",
+    "about": "Cyclonis Password Manager gives you premium features at no charge - it’s FREE! No credit card required! No trial expiration! It’s the full-featured version!\r\n\r\nIMPORTANT: This extension will only work if you have the Cyclonis Password Manager desktop application already installed on your computer. You may download the FREE \"Cyclonis Password Manager Desktop\" application from the Microsoft Store.\r\n\r\n \r\nUsing just a single password for multiple online accounts? Is keeping track of your many passwords an impossible task? With Cyclonis Password Manager, you can manage, organize and control all your passwords in one central place. Cyclonis Password Manager stores your data in a personal vault, that is encrypted with AES-256 bit, an encryption algorithm used by governments, financial institutions, and in military applications. \r\n\r\nCyclonis Password Manager encrypts your vault using your master password. Your master password is for your eyes only – your data cannot even be accessed by Cyclonis staff or servers as we never transmit or store your master password.\r\n\r\nSigning up to a new social media website? This means that you should create a new and unique password. Let Cyclonis Password Manager take care of this tedious process for you. Using Cyclonis Password Manager’s password generator, you can create complex passwords that are designed to help avert the most popular password-cracking methods. Of course, no password, no matter how complex, can be 100% guaranteed against being compromised. Best of all, you can save your new social media account’s login details to your Cyclonis Password Manager vault, accessible directly from your web browser. The next time you visit that social media website, Cyclonis Password Manager’s browser extension can auto-fill your username and password, and even log you in automatically.\r\n\r\nThere's no point in having your data consolidated if you can't easily access it. This is where the Cyclonis Password Manager browser extension comes in. It automatically connects to the Cyclonis Password Manager desktop application and enters your login details for you for each website that you have stored in your vault, saving you time and the frustration of having to manually type your login details. Just navigate to the website and let Cyclonis Password Manager’s browser extension automatically fill in the username and password fields. It can even be configured to log you in automatically by activating the “Sign in” button. There’s no typing, no copying, and no pasting.\r\n\r\nKey Features: \r\n\r\n- View, add, edit, delete, and manage your passwords from a searchable vault.\r\n- Use your passwords in multiple browsers on multiple devices.\r\n- Search your vault and navigate to your favorite websites with just a few clicks.\r\n- Log in to your favorite websites automatically. \r\n- Option to enable two-factor authentication (2FA) for your Cyclonis Password Manager account.\r\n- The Cyclonis Password Manager Password Generator helps you create complex passwords and update your website accounts.\r\n- The Cyclonis Password Manager Password Analyzer checks the complexity and strength of your website account passwords.\r\n-  Integrates with your browser to enable you to store your usernames and passwords to your Cyclonis Password Manager vault with a few clicks.\r\n- Automatically fill in long registration forms and checkout pages with the profile data that you have stored in your vault.\r\n- Import your website account usernames and passwords from other password managers.\r\n- View and edit your website accounts, Private Notes, personal profiles, ID documents, credit card details, bank account information and other sensitive data.",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.60977.4c37d8bb-2671-4bf2-a068-c5678d443e06.4663f71f-6c90-4dba-b720-cf25f5b5fb76.8318b97c-26bd-4a8c-a9ad-b1e0e13e20b8?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "1,000+ usuarios"
+  },
+  {
     "name": "No cache refresh",
     "url": "https://microsoftedge.microsoft.com/addons/detail/no-cache-refresh/acoikaeinibhclgdckpkmakifgoolljh",
     "publisher": "No cache refresh",
@@ -468,6 +468,16 @@
     "about": "No cache refresh is a button that refreshes all the tabs at once.\n\nFeatures:\n🔄 On-click refresh all tabs\n➕ Tell websites not to cache\n➕ Bypass browser alerts like “Do you want to leave this website?”\n\nHow to use the extension:\n1. Click on the “Extensions” button on the toolbar (looks like a puzzle) \n2. Find the “No cache refresh” icon and pin it to the toolbar\n3. Click the “No cache refresh” icon when you need to refresh all tabs.\n\nTechnical details:\nThe app modifies Cache-Control HTTP headers to bypass server-side cache. This option is enabled for 5 second period after you click the toolbar icon.",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.40602.f7b21ac1-8772-42ed-b2dc-ae988a5749d9.d3ec2543-d766-4370-b69d-f1f049ea76eb.b884a6fb-dbb8-404d-bde1-ae11c64192a0?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "1,000+ usuarios"
+  },
+  {
+    "name": "WonderSwitcher",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/wonderswitcher/acpdnpoopebgpccamngjlibapogdcnmh",
+    "publisher": "WonderProxy",
+    "category": "Herramientas de desarrollo",
+    "rating": "Calificado con 2 de 5 estrellas por 1 usuarios.",
+    "about": "The WonderProxy Switcher allows you to define and quickly switch between different HTTP proxies. It will display proxies in a nested manner to make finding and selecting the proxy you need for development testing fast and easy. It's capable of importing your proxies from WonderProxy with just a click, making testing even faster.",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.4817.2a6137dc-0eb0-4cf8-97a5-3726d98997fb.dc03543f-cfd6-4fcc-b356-5086209a2c0d.b6e68f8e-d816-4b8a-9f0a-ba4e7632e24a?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "741 usuarios"
   },
   {
     "name": "蓝客简历抓取插件",
@@ -500,19 +510,6 @@
     "activeInstalls": "199 usuarios"
   },
   {
-    "name": "WonderSwitcher",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/wonderswitcher/acpdnpoopebgpccamngjlibapogdcnmh",
-    "publisher": "WonderProxy",
-    "category": "Herramientas de desarrollo",
-    "rating": "Calificado con 2 de 5 estrellas por 1 usuarios.",
-    "about": "The WonderProxy Switcher allows you to define and quickly switch between different HTTP proxies. It will display proxies in a nested manner to make finding and selecting the proxy you need for development testing fast and easy. It's capable of importing your proxies from WonderProxy with just a click, making testing even faster.",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.4817.2a6137dc-0eb0-4cf8-97a5-3726d98997fb.dc03543f-cfd6-4fcc-b356-5086209a2c0d.b6e68f8e-d816-4b8a-9f0a-ba4e7632e24a?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "723 usuarios"
-  },
-  {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/addgihdndfamjpijnihklgnjphdmcmon PÁGINA NO DISPONIBLE"
-  },
-  {
     "name": "Bitcoin Tracker",
     "url": "https://microsoftedge.microsoft.com/addons/detail/bitcoin-tracker/addokipkkdchbndmfpemckpjeeojahdc",
     "publisher": "Tim Leland",
@@ -521,6 +518,19 @@
     "about": "Easily keep up to date on the latest Bitcoin prices right in your Chrome toolbar.\n\nFeatures\n* Current Bitcoin price in your browser toolbar\n* Last 30 days of Bitcoin daily price\n* Automatically updates every 15 minutes\n\nComing Soon\n* Multiple currencies",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.2475.956c1a5a-81e9-46ea-a0b3-4cd45fe360db.9c2838ad-1a3e-4463-9f58-cb0037e5a457.ea96511b-40f1-40fc-b963-c9ab338cf4be?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "468 usuarios"
+  },
+  {
+    "name": "Turn Off YouTube Comments & Live Chat",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/turn-off-youtube-comments/adfcjmeholkejegahoglmldgneejfpkg",
+    "publisher": "Unhook",
+    "category": "Productividad",
+    "rating": "Calificado con 5 de 5 estrellas por 4 usuarios.",
+    "about": "Hide YouTube comments and/or live chat.\n\nTo hide comments while being able to add comments, uncheck \"Hide Add Comment Box\" and check \"Hide Comments\".\n\nCompatible with mobile YouTube, m.youtube.com.\n\nFor more features including removing recommendations, comments, and more: https://microsoftedge.microsoft.com/addons/detail/unhook-remove-youtube-r/hebpjnnclppdnfghdnmhgdljmjpfhggk\n\nTurn Off YouTube Comments & Live Chat is also available as an extension on:\n- Chrome: https://chrome.google.com/webstore/detail/turn-off-youtube-comments/bnbnjkiglooccambmgnmbepaofnjjjpl\n- Firefox: https://addons.mozilla.org/firefox/addon/youtube-comments-live-chat/",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.19198.fc5aa30e-b555-4224-9638-72d7fca40bc9.03f3895a-10d1-47d7-b93a-8a605877c930.cd4ac231-80d6-4424-a9b1-c62e26256401?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "342 usuarios"
+  },
+  {
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/addgihdndfamjpijnihklgnjphdmcmon PÁGINA NO DISPONIBLE"
   },
   {
     "name": "Shopify Theme Detector",
@@ -541,16 +551,6 @@
     "about": "Instantly discover what was slowing down a webpage.\nCatchpoint User Experience allows you to easily see performance attributes of websites as you browse the web. This helps both end-users and developers understand why a web-page might be slow or experiencing problems. With Catchpoint User Experience , you can quickly identify how long a page took to load, the size of the page in bytes, if any requests caused bottlenecks, the number of hosts that served content, and details about the type of files delivered.\n\nCatchpoint User Experience data can be used ad-hoc to share directly with IT support teams to help resolve incidents faster. IT teams can also use the Catchpoint portal for collecting Catchpoint User Experience data and reporting it in a comprehensive analytics and alerting platform to evaluate trends and see a holistic view of employee experience across entire departments or organizations.",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.35065.d62fb55d-815b-4f84-9829-f6942cd04a07.01a62a7e-6b1a-4227-b69c-f02b9f93d316.5a0f3c33-14ba-4f8a-a83c-6581f7812f30?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "1,000+ usuarios"
-  },
-  {
-    "name": "Turn Off YouTube Comments & Live Chat",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/turn-off-youtube-comments/adfcjmeholkejegahoglmldgneejfpkg",
-    "publisher": "Unhook",
-    "category": "Productividad",
-    "rating": "Calificado con 5 de 5 estrellas por 4 usuarios.",
-    "about": "Hide YouTube comments and/or live chat.\n\nTo hide comments while being able to add comments, uncheck \"Hide Add Comment Box\" and check \"Hide Comments\".\n\nCompatible with mobile YouTube, m.youtube.com.\n\nFor more features including removing recommendations, comments, and more: https://microsoftedge.microsoft.com/addons/detail/unhook-remove-youtube-r/hebpjnnclppdnfghdnmhgdljmjpfhggk\n\nTurn Off YouTube Comments & Live Chat is also available as an extension on:\n- Chrome: https://chrome.google.com/webstore/detail/turn-off-youtube-comments/bnbnjkiglooccambmgnmbepaofnjjjpl\n- Firefox: https://addons.mozilla.org/firefox/addon/youtube-comments-live-chat/",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.19198.fc5aa30e-b555-4224-9638-72d7fca40bc9.03f3895a-10d1-47d7-b93a-8a605877c930.cd4ac231-80d6-4424-a9b1-c62e26256401?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "342 usuarios"
   },
   {
     "name": "Total AV Password Vault Assistant",
@@ -580,7 +580,7 @@
     "rating": "Calificado con 5 de 5 estrellas por 1 usuarios.",
     "about": "Show big PP and small PP instead of upvote and downvote on reddit",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.43943.66c401e6-504d-41a6-adaa-073c2d8cb0fb.8bbe39b3-3b68-411d-abb2-1c57cb9bb5b8.57ead5ce-91fe-4b81-9e9e-71d7b7cc5102?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "8 usuarios"
+    "activeInstalls": "12 usuarios"
   },
   {
     "name": "Photo Editor",
@@ -613,9 +613,6 @@
     "activeInstalls": "569 usuarios"
   },
   {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/adlnmlmfdcpkjfaklpmepkjbchkpjioe PÁGINA NO DISPONIBLE"
-  },
-  {
     "name": "Hangouts de Google",
     "url": "https://microsoftedge.microsoft.com/addons/detail/hangouts-de-google/adnahjjfjjemdiefpobclponnhkijnmo",
     "publisher": "Amanda Kevinson",
@@ -626,6 +623,9 @@
     "activeInstalls": "4,000+ usuarios"
   },
   {
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/adlnmlmfdcpkjfaklpmepkjbchkpjioe PÁGINA NO DISPONIBLE"
+  },
+  {
     "name": "Fecha y hora",
     "url": "https://microsoftedge.microsoft.com/addons/detail/fecha-y-hora/adnhlkgdkjhmpbdcgkajkknionandfae",
     "publisher": "Free Apps Online",
@@ -633,16 +633,6 @@
     "rating": "Calificado con 4,1 de 5 estrellas por 41 usuarios.",
     "about": "Muestra el día, la fecha y la hora.\nUna extensión completamente cargada con toneladas de funciones útiles relacionadas con el tiempo ... Pero la mejor parte es que es totalmente COOL.\n\nEste no es su reloj ordinario en una barra de herramientas. Esto hace más que eso.\n\nLa medición del tiempo es una de las características principales de esta extensión, y a menudo se prefieren diferentes métodos para mostrar el tiempo. En este, puede modificar la apariencia del reloj, que se encuentra en la barra de herramientas.\n",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.17240.f3ae791e-70fb-4b8a-af3b-931b4469d48a.60b93bd5-e480-48d4-9724-7ba3c0df9abe.70267e6c-cceb-4078-8826-e61badc3b92e?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "1,000+ usuarios"
-  },
-  {
-    "name": "Universal Automatic Currency Converter",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/universal-automatic-curre/aeejpkkbcpndcbnmhifkdeabgjafghfn",
-    "publisher": "Baizey",
-    "category": "Compras",
-    "rating": "Calificado con 4,7 de 5 estrellas por 9 usuarios.",
-    "about": "This extension provides for all your conversion desires. The primary focuses being:\n\n- Intelligent conversion and detection of currencies\n\n- Automatic and non-intrusive in-site conversions\n\n- Always access to converter no matter where you are\n\n- Simple UI, yet extensive customization\n\nGeneral features\n\n- Support for more than 170 currencies and their symbolic equivalents, getting rates from fixer.io and openexchangerates.org\n\n- Intelligent currency detection, catching everything for most if not all symbols, $, £ and € to EUR, USD, GBP to 'US $'\n\n- Non-intrusive in-site replacement, will never break any website functionality\n\n- Control exactly how your prices are displayed, anything from $100 or 100 dollars to 100 schmekels\n\n- Intelligent localization of multi-currency symbols like $ and kr\n\n- Optional highlighting of prices being converted on pages\n\n- Flip quickly between converted prices and original using either left-clicking, a self chosen shortcut or via the UI\n\n- Mini converter between currencies in the popup window\n\n- Blacklisting and whitelisting of websites for conversion\n\nChangelog\n\nhttps://github.com/Baizey/UniversalAutomaticCurrencyConverter\n\nThis extension/add-on is also available for...\n\nChrome: https://chrome.google.com/webstore/detail/universal-automatic-curre/hbjagjepkeogombomfeefdmjnclgojli\n\nFirefox: https://addons.mozilla.org/en-US/firefox/addon/ua-currency-converter/",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.20612.0537b464-0975-4433-8c35-b903fb66149b.221d6cc8-5de5-4c7c-a2bd-a31fb3250d19.0ef791db-c18c-4e58-8ee9-53698ab238be?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "1,000+ usuarios"
   },
   {
@@ -664,6 +654,16 @@
     "about": "WioKey replaces costly hardware security keys with a free app-based solution always on you.\n\nThis extension is a companion app and requires the WioKey app available on Android (https://play.google.com/store/apps/details?id=de.wiosense.wiokey&hl=en) and iOS (coming soon). \n\nCurrently, WioKey allows you to use your biometrics or phone password/PIN for 2-Factor Authentication (2FA) with all web services that have support for hardware security key 2FA logins. Additionally, WioKey supports FIDO2 passwordless logins with Microsoft accounts, Windows PC login and other FIDO2-compliant web services.\n\nFor a list of U2F supported web portals, please see https://twofactorauth.org/. For FIDO2 supported websites, please see the commercial deployment on the FIDO2 alliance website (https://fidoalliance.org/).\n\nFor more information regarding privacy concerns, consumer possiblities, deployment in your business and our roadmap, please contact us at contact@wiosense.de.",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.26050.83a92be3-a61e-468b-9ccd-929bdca27e25.31892209-3d48-4db3-99f5-f29da68d4c75.22482fc7-10db-474e-b83b-01b65dca8941?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "121 usuarios"
+  },
+  {
+    "name": "Universal Automatic Currency Converter",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/universal-automatic-curre/aeejpkkbcpndcbnmhifkdeabgjafghfn",
+    "publisher": "Baizey",
+    "category": "Compras",
+    "rating": "Calificado con 4,7 de 5 estrellas por 9 usuarios.",
+    "about": "This extension provides for all your conversion desires. The primary focuses being:\n\n- Intelligent conversion and detection of currencies\n\n- Automatic and non-intrusive in-site conversions\n\n- Always access to converter no matter where you are\n\n- Simple UI, yet extensive customization\n\nGeneral features\n\n- Support for more than 170 currencies and their symbolic equivalents, getting rates from fixer.io and openexchangerates.org\n\n- Intelligent currency detection, catching everything for most if not all symbols, $, £ and € to EUR, USD, GBP to 'US $'\n\n- Non-intrusive in-site replacement, will never break any website functionality\n\n- Control exactly how your prices are displayed, anything from $100 or 100 dollars to 100 schmekels\n\n- Intelligent localization of multi-currency symbols like $ and kr\n\n- Optional highlighting of prices being converted on pages\n\n- Flip quickly between converted prices and original using either left-clicking, a self chosen shortcut or via the UI\n\n- Mini converter between currencies in the popup window\n\n- Blacklisting and whitelisting of websites for conversion\n\nChangelog\n\nhttps://github.com/Baizey/UniversalAutomaticCurrencyConverter\n\nThis extension/add-on is also available for...\n\nChrome: https://chrome.google.com/webstore/detail/universal-automatic-curre/hbjagjepkeogombomfeefdmjnclgojli\n\nFirefox: https://addons.mozilla.org/en-US/firefox/addon/ua-currency-converter/",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.20612.0537b464-0975-4433-8c35-b903fb66149b.221d6cc8-5de5-4c7c-a2bd-a31fb3250d19.0ef791db-c18c-4e58-8ee9-53698ab238be?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "1,000+ usuarios"
   },
   {
     "errorPage": "https://microsoftedge.microsoft.com/addons/detail/aeebclhepohdoffkbkkgaldekdlmfpgf PÁGINA NO DISPONIBLE"
@@ -742,16 +742,6 @@
     "activeInstalls": "7,000+ usuarios"
   },
   {
-    "name": "Toma de asistencia para meet",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/toma-de-asistencia-para-m/afbaclnakbihjgkkibifhniboemhjacn",
-    "publisher": "Narva-Sharif",
-    "category": "Productividad",
-    "rating": "Calificado con 2,3 de 5 estrellas por 12 usuarios.",
-    "about": "Una extensión que te permite tomar la asistencia de una manera fácil en tus reuniones de meet, exportándolas como un archivo csv (para hojas de cálculo) o txt (archivo de texto). Permite introducir un nombre para el archivo, así podrás identificarlo más fácil. Además entrega un reporte del total de asistentes, evitando el registro de asistentes duplicados.\n\nAdemás, hemos de recalcar que NO HAY LIMITE DE PARTICIPANTES, de hecho, hemos tenido usuarios que nos dicen que han estado en reuniones de hasta 250 participantes, y todo ha ido muy bien!\n\nIdeal para los maestros, directivos y todas las personas que deseen tomar lista de asistencia en reuniones, clases o encuentros virtuales.",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.52808.5ac0a17f-7331-4498-adfc-5076535866c1.28d4cb72-a3d0-4001-8e81-a5dae2dd0294.154c3b14-5aec-46c8-aec2-c0b81c730ca6?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "3,000+ usuarios"
-  },
-  {
     "name": "Mue",
     "url": "https://microsoftedge.microsoft.com/addons/detail/mue/aepnglgjfokepefimhbnibfjekidhmja",
     "publisher": "Mue Tab",
@@ -760,6 +750,16 @@
     "about": "Mue replaces your default new tab page with a simple, inspiring and very customizable start page. Each time you open a new tab you are greeted with a new hand-picked inspirational quote and beautiful background. The simplistic yet inviting design helps you focus on your work while still providing a feature rich experience. It is constantly being improved to provide you with the best experience possible while keeping the impact on your browser minimal. Mue Tab comes with a settings modal to allow for a massive amount of customization to make the extension perfect for you and inspire creativity.\n\nFeatures Include:\n* Quote widget allowing for either our hand-picked inspirational quotes or a custom one\n* Beautiful curated backgrounds from Mue, Unsplash and Pexels\n* Set custom backgrounds from your computer or a URL, or set a custom background color/gradient\n* Greeting widget with personalisation and support for birthdays and events such as new years\n* Search bar with clean autocomplete dropdown and voice support\n* Quick links widget letting you easily visit your favourite websites\n* Weather widget can show temperature, humidity, and more\n* Support for multiple languages\n* Marketplace to get free photo packs, quote packs and preset settings from the community\n\nSupport:\nEmail - hello@muetab.com\nContact Form - https://muetab.com/contact\nDiscord - https://discord.gg/zv8C9F8\nTwitter - @getmue\n\nWe believe in user transparency therefore Mue does not collect personal data and is entirely open source, easily readable, at https://github.com/mue",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.19463.8c4aa294-6ec5-4b25-8411-a90ed788b9c2.87facb0a-eb4d-4ac3-9f39-7aef14366471.228fcc14-e630-4d96-a501-2b5d46dac3c9?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "1,000+ usuarios"
+  },
+  {
+    "name": "Toma de asistencia para meet",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/toma-de-asistencia-para-m/afbaclnakbihjgkkibifhniboemhjacn",
+    "publisher": "Narva-Sharif",
+    "category": "Productividad",
+    "rating": "Calificado con 2,3 de 5 estrellas por 12 usuarios.",
+    "about": "Una extensión que te permite tomar la asistencia de una manera fácil en tus reuniones de meet, exportándolas como un archivo csv (para hojas de cálculo) o txt (archivo de texto). Permite introducir un nombre para el archivo, así podrás identificarlo más fácil. Además entrega un reporte del total de asistentes, evitando el registro de asistentes duplicados.\n\nAdemás, hemos de recalcar que NO HAY LIMITE DE PARTICIPANTES, de hecho, hemos tenido usuarios que nos dicen que han estado en reuniones de hasta 250 participantes, y todo ha ido muy bien!\n\nIdeal para los maestros, directivos y todas las personas que deseen tomar lista de asistencia en reuniones, clases o encuentros virtuales.",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.52808.5ac0a17f-7331-4498-adfc-5076535866c1.28d4cb72-a3d0-4001-8e81-a5dae2dd0294.154c3b14-5aec-46c8-aec2-c0b81c730ca6?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "3,000+ usuarios"
   },
   {
     "name": "tabExtend",
@@ -772,16 +772,6 @@
     "activeInstalls": "1,000+ usuarios"
   },
   {
-    "name": "Memo Reminders",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/memo-reminders/afdfkcnomofggnhmkcgophjmbahlhckb",
-    "publisher": "datanasov.com",
-    "category": "Productividad",
-    "rating": "Calificado con 0 de 5 estrellas por 0 usuarios.",
-    "about": "\"Memo reminders\" replaces your new tab page and there you can create reminders and you will see them each time you open new tab, additionally there is button with reminders count in your toolbar to remind you in case you don't open new tab that often.\nEasily accessible, always there.\n\n\"Memo Reminders\" is simple, fast and easy to get started. It is not standard To-Do or Reminders application because there is no strict time setting. Just write what you need to do and tap the button and done.\n\n★ Highly customizable: set icon, short text, add longer description if needed\n★ Keeps history of your memo reminders\n★ Add actions on reminders - Customize the action when you tap on the notification. You can set the action to dial number, prepare SMS text or email someone, navigate to your destination, open website if you need to book tickets… you name it! Saves you time and effort.\n\nAnd to make your new tab page more useful, you can also add widgets like favorite sites, reddit and more to come.",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.2009.f81f19db-3e36-4e21-8ba8-82f61b629210.acefa35d-214f-4b76-a060-c7c10c226356.0907ad18-4712-4323-ad49-af20ab3e3678?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "424 usuarios"
-  },
-  {
     "name": "PhotoShow",
     "url": "https://microsoftedge.microsoft.com/addons/detail/photoshow/afdelcfalkgcfelngdclbaijgeaklbjk",
     "publisher": "Vincent W.",
@@ -790,6 +780,16 @@
     "about": "\"PhotoShow\" is a tool for browsing high-definition images by hovering mouse on image thumbnails, supporting over 140 websites/domains of your daily use (still in extending), such as Amazon, Facebook,  Google,  Wiki, YouTube, etc.\n\n\n● HOTKEYS\nEsc : Close image viewer\nShift + Ctrl + ← : Rotate counterclockwise\nShift + Ctrl + → : Rotate clockwise\n↑ / → / ↓ / ← : Scroll up / right / down / left\nPgUp / PgDn : Scroll up / down by image visible height\nHome / End : Scroll up to the top / down to the bottom\nM / L / A / P : Switch view mode\nV: Toggle to the previously used view mode\nTab : Open high-definition image in new tab\nS : Save high-definition image\nC : Copy high-definition image address\n\n\n● SETTINGS\nWEBSITE TOGGLE: You may turn on/off PhotoShow on any supported website respectively.\nACTIVATION MODE: Use Shift/Ctrl/Alt key as a modifier key to trigger high-definition image preview when mouse hovering on image thumbnails.\nVIEW MODE: Switch between different size of the viewer.\nIMAGE SIZE DISPLAY: Set whether to display HD image size information in the viewer.\nSHADOW DISPLAY: Set whether to display shadow between the viewer and the source thumbnail.\n\nFor more settings, please refer to the PhotoShow popup window.\n\nAll the settings will be saved and synced automatically by the browser among all your devices (if the account sync in your browser is on and the extension data sync is granted).\n\n\n● IMAGE LOADING SPEED\nPhotoShow will try to fetch as large an original image as it knows, so it may be considerably slow if your network condition is poor.\n\n\n● PRIVACY & TERMS of USE\nThe author and all contributors of PhotoShow DO NOT collect any of your personal data and is not responsible for any loss, personal information leak, disputes and/or any consequences caused by illegal download, use of resources (including but not limited to images) of any websites you visit. In no event shall we be liable for any claims, penalties, loss, damage or expenses, howsoever arising, out of or in connection with your use of PhotoShow. Installing and using PhotoShow is deemed as your acceptance of the above terms.\n\nPhotoShow only works in the local browser environment, all the permissions it asks when being installed are only for image preview and download. For version 3.0 and later, the 'Read and change all your data on the websites you visit' permission is asked so that you will no longer be disturbed by permission alert when PhotoShow updates to support more websites.\n\nWe reserve the right to change this Privacy Policy at any time without notifying you respectively. Any amended Privacy Policy will be posted on relevant websites. This Privacy Policy was last updated on January 24th, 2020 and replaces any other versions previously applicable from this date.\n\n\n● FEEDBACK\nShould you have any feedback or need more websites to be fitted, please do not hesitate to contact the author via emails or Github. If you enjoy using PhotoShow, it would be appreciated if you could introduce it to your friends via the social media listed on the popup window. Thank you.",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.1359.1f53a834-66e2-4e2a-b7d7-a2628feb5a96.d22800ea-18cd-4fbd-93e8-f19cdc0460f2.f2eb97cd-9800-4aca-8362-8a4fccc33083?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "200,000+ usuarios"
+  },
+  {
+    "name": "Memo Reminders",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/memo-reminders/afdfkcnomofggnhmkcgophjmbahlhckb",
+    "publisher": "datanasov.com",
+    "category": "Productividad",
+    "rating": "Calificado con 0 de 5 estrellas por 0 usuarios.",
+    "about": "\"Memo reminders\" replaces your new tab page and there you can create reminders and you will see them each time you open new tab, additionally there is button with reminders count in your toolbar to remind you in case you don't open new tab that often.\nEasily accessible, always there.\n\n\"Memo Reminders\" is simple, fast and easy to get started. It is not standard To-Do or Reminders application because there is no strict time setting. Just write what you need to do and tap the button and done.\n\n★ Highly customizable: set icon, short text, add longer description if needed\n★ Keeps history of your memo reminders\n★ Add actions on reminders - Customize the action when you tap on the notification. You can set the action to dial number, prepare SMS text or email someone, navigate to your destination, open website if you need to book tickets… you name it! Saves you time and effort.\n\nAnd to make your new tab page more useful, you can also add widgets like favorite sites, reddit and more to come.",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.2009.f81f19db-3e36-4e21-8ba8-82f61b629210.acefa35d-214f-4b76-a060-c7c10c226356.0907ad18-4712-4323-ad49-af20ab3e3678?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "424 usuarios"
   },
   {
     "name": "SP Editor",
@@ -842,9 +842,6 @@
     "activeInstalls": "10,000+ usuarios"
   },
   {
-    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/afgkcdcmpgcfcigikdkcbflojoofillj PÁGINA NO DISPONIBLE"
-  },
-  {
     "name": "新媒体管家",
     "url": "https://microsoftedge.microsoft.com/addons/detail/%E6%96%B0%E5%AA%92%E4%BD%93%E7%AE%A1%E5%AE%B6/afljpghollbanbohmmonkjgjfakaabih",
     "publisher": "上海政凯信息科技有限公司",
@@ -853,6 +850,9 @@
     "about": "最好用的新媒体运营工具，数百万新媒体人的选择！\n\n【数百项功能】专为新媒体人设计，直击痛点\n【全平台支持】微信公众号、头条号、微博、知乎、百家号等主流新媒体平台\n【独家黑科技】免扫码登录、图文/样式采集、动图/表情包搜索、一键全网发布\n【他们都在用】一条、papi、杜蕾斯、滴滴出行等数百万媒体都在使用新媒体管家\n\n官方网站：xmt.cn\n官方QQ群：811743628",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.47945.2ea3e92b-a35b-4fa9-b279-e37314afe438.345290b4-9457-4e62-be93-5d71c8706d13.2eff642e-56ce-4464-9419-70745f8e6c12?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "10,000+ usuarios"
+  },
+  {
+    "errorPage": "https://microsoftedge.microsoft.com/addons/detail/afgkcdcmpgcfcigikdkcbflojoofillj PÁGINA NO DISPONIBLE"
   },
   {
     "name": "Rhino Steps Recorder and Integrator",
@@ -865,16 +865,6 @@
     "activeInstalls": "32 usuarios"
   },
   {
-    "name": "Tiny Extension Manager",
-    "url": "https://microsoftedge.microsoft.com/addons/detail/tiny-extension-manager/afnibnpndnlojnhfdpnokggmmpcclaec",
-    "publisher": "WebOpt",
-    "category": "Productividad",
-    "rating": "Calificado con 3,6 de 5 estrellas por 5 usuarios.",
-    "about": "Manage your extensions directly from the toolbar quickly and easily\n\n1) Easy filtering\n2) All you need in one place\n3) Small and fast (only 37kb zipped)\n4) No lags, no big libraries\n5) Fast enable/disable extension with click",
-    "imageURL": "https://store-images.s-microsoft.com/image/apps.30908.1b8ee779-e227-4600-aa61-eba8d27253e1.384d24c7-f494-4b3d-9251-526070e77f10.b1ad0524-5a14-4847-b967-71c08b3a40a4?mode=scale&h=100&q=90&w=100",
-    "activeInstalls": "471 usuarios"
-  },
-  {
     "name": "Gochyu - Theme Detector",
     "url": "https://microsoftedge.microsoft.com/addons/detail/gochyu-theme-detector/afndkmdbjndjjihdpaccdfmljfmfneii",
     "publisher": "OK Digital",
@@ -883,6 +873,16 @@
     "about": "Gochyu is a cutting edge theeme detector which can detect themes and plugins used on several CMS's like: WordPress.org, WordPress.com, Joomla, Wix, Drupal, Squarespace, Shopify and PrestaShop and can detect the CMS used from over 400 different CMS's.",
     "imageURL": "https://store-images.s-microsoft.com/image/apps.47152.fb02f2c1-4f04-4312-b255-d84a83e10ec3.68803f81-c58d-41f7-96da-db760435eb67.5a19c06e-510b-48c3-a676-06ebefa81963?mode=scale&h=100&q=90&w=100",
     "activeInstalls": "231 usuarios"
+  },
+  {
+    "name": "Tiny Extension Manager",
+    "url": "https://microsoftedge.microsoft.com/addons/detail/tiny-extension-manager/afnibnpndnlojnhfdpnokggmmpcclaec",
+    "publisher": "WebOpt",
+    "category": "Productividad",
+    "rating": "Calificado con 3,6 de 5 estrellas por 5 usuarios.",
+    "about": "Manage your extensions directly from the toolbar quickly and easily\n\n1) Easy filtering\n2) All you need in one place\n3) Small and fast (only 37kb zipped)\n4) No lags, no big libraries\n5) Fast enable/disable extension with click",
+    "imageURL": "https://store-images.s-microsoft.com/image/apps.30908.1b8ee779-e227-4600-aa61-eba8d27253e1.384d24c7-f494-4b3d-9251-526070e77f10.b1ad0524-5a14-4847-b967-71c08b3a40a4?mode=scale&h=100&q=90&w=100",
+    "activeInstalls": "472 usuarios"
   },
   {
     "errorPage": "https://microsoftedge.microsoft.com/addons/detail/afmgoimoifomnlifnmkenmdhhlmfnhon PÁGINA NO DISPONIBLE"
