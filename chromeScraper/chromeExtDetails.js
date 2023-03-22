@@ -11,15 +11,17 @@ export async function getExtensionDetails(page) {
     await page.waitForSelector("div.e-f-n-Va", { timeout: 3000 }); // TimeoutError
 
   } catch (e) {
+
     return {
       webstore: "Chrome Web Store",
       url,
-      error: "Página no disponible",
+      error: "Extension Not Available",
     };
   }
   
   /// PROCESO DE SCRAPING DE INFORMACIÓN DE EXTENSIÓN DE CHROME
   let extensionDetails = await page.evaluate(() => {
+    
     const nameAndImg = document.querySelector(".e-f-n-Va");
     
     // Nombre de la extensión
