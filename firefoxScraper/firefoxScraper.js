@@ -47,7 +47,7 @@ console.time("Tiempo para scrapear " + extensions + " extensiones");
   await cluster.close();
 
   /// PROCESO DE ESCRIBIR LA INFORMACIÓN DE LAS EXTENSIONES EN UN FICHERO JSON
-  fs.writeFileSync('./firefoxScraper/firefoxextensionsInfo.json', JSON.stringify(extensionsInfo, 0, 2));
+  fs.writeFileSync('./firefoxScraper/firefoxExtensions.json', JSON.stringify(extensionsInfo, 0, 2));
 
   console.log("[FIREFOX] == Scraping finalizado.");
   console.timeEnd("Tiempo para scrapear " + extensions + " extensiones");
