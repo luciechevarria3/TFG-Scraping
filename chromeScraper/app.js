@@ -36,7 +36,7 @@ import fs from "fs";
         webstore: "Chrome Web Store",
         url,
         error: "Página no disponible",
-    })
+      })
       return [];
     }
     /// PROCESO DE SCRAPING DE INFORMACIÓN DE EXTENSIÓN DE CHROME
