@@ -3,7 +3,7 @@ import fs from 'fs';
 
 import { getExtensionDetails } from './firefoxExtDetails.js';
 
-const extensions = 5; // Número de urls de firefox a scrapear
+const extensions = process.argv[2]; // Número de urls de firefox a scrapear
 
 console.time("Tiempo para scrapear " + extensions + " extensiones");
 console.log("[FIREFOX] == Scraping initialized");

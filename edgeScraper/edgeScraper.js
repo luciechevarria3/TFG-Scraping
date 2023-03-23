@@ -2,7 +2,7 @@ import { Cluster } from "puppeteer-cluster";
 import fs from "fs";
 import { getExtensionDetails } from "./edgeExtDetails.js";
 
-const extensions = 5; // Número de extensiones que se quiere scrapear
+const extensions = process.argv[2]; // Número de extensiones que se quiere scrapear
 
 console.time("Tiempo para scrapear " + extensions + " extensiones");
 console.log("[EDGE] == Scraping initialized");

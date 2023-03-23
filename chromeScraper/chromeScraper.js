@@ -17,7 +17,7 @@ import { getExtensionDetails } from "./chromeExtDetails.js";
 //   });
 // };
 
-const extensions = 5; // Número de urls de chrome a scrapear
+const extensions = process.argv[2]; // Número de urls de chrome a scrapear
 
 console.time("Tiempo para scrapear " + extensions + " extensiones");
 console.log("[CHROME] == Scraping initialized");
