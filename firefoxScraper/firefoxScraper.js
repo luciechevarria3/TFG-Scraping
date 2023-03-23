@@ -3,15 +3,16 @@ import fs from 'fs';
 
 import { getExtensionDetails } from './firefoxExtDetails.js';
 
-const extensions = 10; // Número de urls de firefox a scrapear
+const extensions = 5; // Número de urls de firefox a scrapear
 
 console.time("Tiempo para scrapear " + extensions + " extensiones");
+console.log("[FIREFOX] == Scraping initialized");
 
 (async () => {
   // PUPPETEER-CLUSTER: opciones de arranque
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_CONTEXT,
-    maxConcurrency: 5,
+    maxConcurrency: 2,
     // puppeteerOptions: {headless: false},
   });
 
@@ -37,17 +38,25 @@ console.time("Tiempo para scrapear " + extensions + " extensiones");
       return;
     }
     const urls = data.split(/\r?\n/);
-    for (let i = 0; i < extensions; i++) {
-      cluster.queue(urls[i]);
-    };
+
+    if (extensions == 0) {  // CASO PARA SCRAPEAR TODAS LAS EXTENSIONES DISPONIBLES
+      for (let url of urls) { cluster.queue(url) };
+    }
+    else {                  // CASO PARA SCRAPEAR LAS EXTENSIONES QUE NOS PIDEN
+      for (let i = 0; i<extensions; i++ ) { cluster.queue(urls[i]); }
+    }
+
   });
 
   // Shutdown after everything is done
   await cluster.idle();
   await cluster.close();
 
+  // Preparar la lista para añadirla a extensionsInfo.json
+  extensionsInfo = JSON.stringify(extensionsInfo, 0, 2);
+
   /// PROCESO DE ESCRIBIR LA INFORMACIÓN DE LAS EXTENSIONES EN UN FICHERO JSON
-  fs.writeFileSync('./firefoxScraper/firefoxExtensions.json', JSON.stringify(extensionsInfo, 0, 2));
+  fs.writeFileSync('./firefoxScraper/firefoxExtensions.json', extensionsInfo);
 
   console.log("[FIREFOX] == Scraping finalizado.");
   console.timeEnd("Tiempo para scrapear " + extensions + " extensiones");

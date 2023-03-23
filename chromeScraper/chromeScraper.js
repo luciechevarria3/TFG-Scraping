@@ -17,17 +17,18 @@ import { getExtensionDetails } from "./chromeExtDetails.js";
 //   });
 // };
 
-const extensions = 10; // Número de urls de chrome a scrapear
+const extensions = 5; // Número de urls de chrome a scrapear
 
 console.time("Tiempo para scrapear " + extensions + " extensiones");
+console.log("[CHROME] == Scraping initialized");
 
 (async () => {
 
   // PUPPETEER-CLUSTER: opciones de arranque
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_PAGE,
-    maxConcurrency: 5,
-    puppeteerOptions: {headless: false}
+    maxConcurrency: 2,
+    // puppeteerOptions: {headless: false}
   });
   
   let extensionsInfo = [];  // Lista con información de todas las extensiones
@@ -53,11 +54,15 @@ console.time("Tiempo para scrapear " + extensions + " extensiones");
       return;
     }
     const urls = data.split(/\r?\n/);
-    for (let i = 0; i < extensions; i++) {
-      cluster.queue(urls[i]);
+
+    if (extensions == 0) {  // CASO PARA SCRAPEAR TODAS LAS EXTENSIONES DISPONIBLES
+      for (let url of urls) { cluster.queue(url) };
     }
+    else {                  // CASO PARA SCRAPEAR LAS EXTENSIONES QUE NOS PIDEN
+      for (let i = 0; i<extensions; i++ ) { cluster.queue(urls[i]); }
+    }
+
   });
-  
   
   // Shutdown after everything is done
   await cluster.idle();

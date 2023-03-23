@@ -2,17 +2,19 @@ import { Cluster } from "puppeteer-cluster";
 import fs from "fs";
 import { getExtensionDetails } from "./edgeExtDetails.js";
 
-const extensions = 10; // Número de extensiones que se quiere scrapear
+const extensions = 5; // Número de extensiones que se quiere scrapear
 
 console.time("Tiempo para scrapear " + extensions + " extensiones");
+console.log("[EDGE] == Scraping initialized");
+
 (async () => {
   
   // PUPPETEER-CLUSTER: opciones de arranque
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_CONTEXT, // Incognito pages
-    maxConcurrency: 5, // Cuantas extensiones scrapear en cada repetición
+    maxConcurrency: 2, // Cuantas extensiones scrapear en cada repetición
     puppeteerOptions: {
-      headless: false,
+      // headless: false,
       defaultViewport: false,
     },
   });
@@ -38,9 +40,14 @@ console.time("Tiempo para scrapear " + extensions + " extensiones");
       return;
     }
     const urls = data.split(/\r?\n/);
-    for (let i = 0; i < extensions; i++) {
-      cluster.queue(urls[i]);
-    };
+
+    if (extensions == 0) {  // CASO PARA SCRAPEAR TODAS LAS EXTENSIONES DISPONIBLES
+      for (let url of urls) { cluster.queue(url) };
+    }
+    else {                  // CASO PARA SCRAPEAR LAS EXTENSIONES QUE NOS PIDEN
+      for (let i = 0; i<extensions; i++ ) { cluster.queue(urls[i]); }
+    }
+
   });
   
   await cluster.idle();
