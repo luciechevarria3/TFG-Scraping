@@ -70,17 +70,15 @@ export async function getExtensionDetails(page) {
     }
     
     // Disponibilidad de la extensión
-    var availability = "Available";
-    if (document.querySelector(".webstore-test-button-label").textContent != "Añadir a Chrome") {
-      availability = "Not available";
-    };
+    let availability;
+    document.querySelector(".webstore-test-button-label").textContent.includes("Añadir") ? availability = "Available" : availability = "Not available";
 
     // Última vez scrapeado
     const date = new Date();
     let day = date.getDate();
     let month = date.getMonth() + 1;
     let year = date.getFullYear();
-    var time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    let time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
     
     let lastScraped = `${day}-${month}-${year} ${time}`;
     

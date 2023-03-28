@@ -28,7 +28,7 @@ console.log("[CHROME] == Scraping initialized");
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_PAGE,
     maxConcurrency: 5,
-    // puppeteerOptions: {headless: false}
+    puppeteerOptions: {headless: false}
   });
   
   let extensionsInfo = [];  // Lista con información de todas las extensiones
