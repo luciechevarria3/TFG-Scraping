@@ -64,9 +64,9 @@ export async function getExtensionDetails(page) {
     }
     
     // Disponibilidad de la extensión
-    var availability = "Disponible";
+    var availability = "Available";
     if (document.querySelector(".webstore-test-button-label").textContent != "Añadir a Chrome") {
-      availability = "No disponible";
+      availability = "Not available";
     };
     
     return {

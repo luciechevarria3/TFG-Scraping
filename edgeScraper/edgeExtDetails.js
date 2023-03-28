@@ -47,6 +47,6 @@ export async function getExtensionDetails(page) {
   } catch (error) {
     const pageURL = await page.url()
     console.error("ERROR: extensionsAttributes.js - getExtensionInfo(). - " + pageURL);
-    return {errorPage: pageURL + " PÁGINA NO DISPONIBLE"}
+    return {errorPage: pageURL + " not available"}
   }
 }
