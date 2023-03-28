@@ -5,7 +5,7 @@ import { getExtensionDetails } from './firefoxExtDetails.js';
 
 const extensions = process.argv[2]; // Número de urls de firefox a scrapear
 
-console.time("Tiempo para scrapear " + extensions + " extensiones");
+console.time("[FIREFOX] == Tiempo para scrapear " + extensions + " extensiones");
 console.log("[FIREFOX] == Scraping initialized");
 
 (async () => {
@@ -59,5 +59,5 @@ console.log("[FIREFOX] == Scraping initialized");
   fs.writeFileSync('./firefoxScraper/firefoxExtensions.json', extensionsInfo);
 
   console.log("[FIREFOX] == Scraping finalizado.");
-  console.timeEnd("Tiempo para scrapear " + extensions + " extensiones");
+  console.timeEnd("[FIREFOX] == Tiempo para scrapear " + extensions + " extensiones");
 })();

@@ -4,7 +4,7 @@ import { getExtensionDetails } from "./edgeExtDetails.js";
 
 const extensions = process.argv[2]; // Número de extensiones que se quiere scrapear
 
-console.time("Tiempo para scrapear " + extensions + " extensiones");
+console.time("[EDGE] == Tiempo para scrapear " + extensions + " extensiones");
 console.log("[EDGE] == Scraping initialized");
 
 (async () => {
@@ -60,5 +60,5 @@ console.log("[EDGE] == Scraping initialized");
   fs.writeFileSync("./edgeScraper/edgeExtensions.json", extensionsInfo);
   
   console.log("[EDGE] == Scraping finalizado.");
-  console.timeEnd("Tiempo para scrapear " + extensions + " extensiones");
+  console.timeEnd("[EDGE] == Tiempo para scrapear " + extensions + " extensiones");
 })();

@@ -8,9 +8,11 @@
 export async function getExtensionDetails(page) {
   try {
     
-    await page.waitForSelector("div.e-f-n-Va", { timeout: 3000 }); // TimeoutError
+    await page.waitForSelector("div.e-f-n-Va", { timeout: 5000 }); // TimeoutError
 
   } catch (e) {
+
+    const url = await page.url();
 
     return {
       webstore: "Chrome Web Store",
@@ -34,13 +36,17 @@ export async function getExtensionDetails(page) {
     const additionalInfo = document.querySelector(".C-b-p-D-J");
     
     // Publisher de la extensión
-    const publisher = additionalInfo.children[1].textContent;
+    let publisher = additionalInfo.querySelector('.C-b-p-D-Xe').textContent;
+    if (!isNaN(parseFloat(publisher))) {
+      publisher = document.querySelector('.e-f-Ri-G .e-f-y').textContent;
+    }
+    // const publisher = additionalInfo.children[1].textContent;
     
     // Última vez que la extensión ha sido actualizada
-    const lastUpdated = additionalInfo.children[6].textContent;
+    const lastUpdated = additionalInfo.querySelector('.C-b-p-D-Xe.h-C-b-p-D-xh-hh').textContent;
     
     // Categoría de la extensión
-    const category = nameAndImg.querySelector(".e-f-y").textContent;
+    const category = document.querySelector('.e-f-yb-w .e-f-y').textContent;
     
     // Rating (en formato texto) de la extensión
     const rating = nameAndImg.querySelector(".Y89Uic").title;
@@ -68,6 +74,15 @@ export async function getExtensionDetails(page) {
     if (document.querySelector(".webstore-test-button-label").textContent != "Añadir a Chrome") {
       availability = "Not available";
     };
+
+    // Última vez scrapeado
+    const date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+    var time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    
+    let lastScraped = `${day}-${month}-${year} ${time}`;
     
     return {
       webstore: "Chrome Web Store",
@@ -81,6 +96,7 @@ export async function getExtensionDetails(page) {
       installs,
       availability,
       description,
+      lastScraped,
     };
     
   });

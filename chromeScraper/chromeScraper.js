@@ -19,7 +19,7 @@ import { getExtensionDetails } from "./chromeExtDetails.js";
 
 const extensions = process.argv[2]; // Número de urls de chrome a scrapear
 
-console.time("Tiempo para scrapear " + extensions + " extensiones");
+console.time("[CHROME] == Tiempo para scrapear " + extensions + " extensiones");
 console.log("[CHROME] == Scraping initialized");
 
 (async () => {
@@ -27,7 +27,7 @@ console.log("[CHROME] == Scraping initialized");
   // PUPPETEER-CLUSTER: opciones de arranque
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_PAGE,
-    maxConcurrency: 2,
+    maxConcurrency: 5,
     // puppeteerOptions: {headless: false}
   });
   
@@ -75,5 +75,5 @@ console.log("[CHROME] == Scraping initialized");
   fs.writeFileSync("./chromeScraper/chromeExtensions.json", extensionsInfo);
 
   console.log("[CHROME] == Scraping finalizado.");
-  console.timeEnd("Tiempo para scrapear " + extensions + " extensiones");
+  console.timeEnd("[CHROME] == Tiempo para scrapear " + extensions + " extensiones");
 })();

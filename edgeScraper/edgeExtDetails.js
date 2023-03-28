@@ -18,6 +18,7 @@ export async function getExtensionDetails(page) {
       } catch (error) {
         console.log("La descripción no es muy grande.");
       }
+
       const infoDiv = document.querySelector('[role=main]').children[1];  // Guardar la referencia al div que contiene información importante de la extensión
       const name = infoDiv.querySelector('h1').textContent; // Nombre de la extensión
       const url = document.URL;
@@ -28,6 +29,19 @@ export async function getExtensionDetails(page) {
       const image = infoDiv.querySelector('img').src; // Guardar el src de la imagen de la extensión
       let installs = infoDiv.querySelector('#activeInstallText').textContent.replace(/[\u202A\u202C]/g,'').match(/\d+/g).join(); // Número de instalaciones activas
       installs = parseInt(installs);
+
+      // Última vez actualizado
+      const lastUpdated = document.querySelector('span#lastUpdatedOnHeader').textContent;
+      
+      // Última vez scrapeado
+      const date = new Date();
+      let day = date.getDate();
+      let month = date.getMonth() + 1;
+      let year = date.getFullYear();
+      var time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+      
+      let lastScraped = `${day}-${month}-${year} ${time}`;
+
       const extension = {
         webstore: 'Microsoft Edge Store',
         name,
@@ -35,9 +49,11 @@ export async function getExtensionDetails(page) {
         publisher,
         category,
         rating,
+        lastUpdated,
         image,
         installs,
         description,
+        lastScraped,
       };
       return extension;
     });
@@ -45,8 +61,12 @@ export async function getExtensionDetails(page) {
     return extensionInfo;
     
   } catch (error) {
-    const pageURL = await page.url()
-    console.error("ERROR: extensionsAttributes.js - getExtensionInfo(). - " + pageURL);
-    return {errorPage: pageURL + " not available"}
+    const url = await page.url()
+    // console.error("ERROR: extensionsAttributes.js - getExtensionInfo(). - " + pageURL);
+    return {
+      webstore: "Microsoft Edge Store",
+      url,
+      error: "Extension Not Available",
+    };
   }
 }

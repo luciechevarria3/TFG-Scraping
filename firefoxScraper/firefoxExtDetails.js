@@ -12,6 +12,8 @@ export async function getExtensionDetails(page) {
     
   } catch (error) {
     
+    const url = await page.url();
+    
     return {
       webstore: "Firefox Browser Add-Ons",
       url,
@@ -39,49 +41,59 @@ export async function getExtensionDetails(page) {
     // Categoría de la extensión
     const categoryNodes = document.querySelectorAll(
       ".AddonMoreInfo-related-category-link"
-      );
-      let categories = [];
-      categoryNodes.forEach((entry) => categories.push(entry.text));
-      let category = categories.join(" , ");
+    );
+    let categories = [];
+    categoryNodes.forEach((entry) => categories.push(entry.text));
+    let category = categories.join(" , ");
+    
+    // Rating de la extensión
+    const rating = parseFloat(document.querySelector('.AddonMeta-rating-title').textContent.split(" ")[0]);
+    
+    // Nº de reviews de la extensión
+    const reviews = parseInt( document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[1].firstChild.textContent.replace(",","") )
+    
+    // Fecha de última actualización
+    const lastUpdated = document.querySelector(".Definition-dd.AddonMoreInfo-last-updated").innerText.match(/\((.*)\)/i)[1]
+    
+    // Imagen de la extensión
+    const image = document.querySelector('img').src;
+    
+    // Nª de veces que la ext. ha sido instalada
+    let installs = document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[0].firstChild.textContent;
+    installs = parseInt(installs);
+    
+    // Descripción de la extensión
+    let description =  '';
+    description = document.querySelector(".AddonDescription-contents")?.innerText
+    if (description == ''){ // not found an about box
+      description =  document.querySelector(".Addon-summary")?.innerText
+    };
+
+    // Última vez scrapeado
+    const date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+    var time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    
+    let lastScraped = `${day}-${month}-${year} ${time}`;
+    
+    return {
+      webstore: 'Firefox Browser Add-Ons',
+      name,
+      url,
+      publisher,
+      category,
+      rating,
+      reviews,
+      lastUpdated,
+      image,
+      installs,
+      description,
+      lastScraped,
+    };
       
-      // Rating de la extensión
-      const rating = parseFloat(document.querySelector('.AddonMeta-rating-title').textContent.split(" ")[0]);
-      
-      // Nº de reviews de la extensión
-      const reviews = parseInt( document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[1].firstChild.textContent.replace(",","") )
-      
-      // Fecha de última actualización
-      const lastUpdated = document.querySelector(".Definition-dd.AddonMoreInfo-last-updated").innerText.match(/\((.*)\)/i)[1]
-      
-      // Imagen de la extensión
-      const image = document.querySelector('img').src;
-      
-      // Nª de veces que la ext. ha sido instalada
-      let installs = document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[0].firstChild.textContent;
-      installs = parseInt(installs);
-      
-      // Descripción de la extensión
-      let description =  '';
-      description = document.querySelector(".AddonDescription-contents")?.innerText
-      if (description == ''){ // not found an about box
-        description =  document.querySelector(".Addon-summary")?.innerText
-      };
-      
-      return {
-        webstore: 'Firefox Browser Add-Ons',
-        name,
-        url,
-        publisher,
-        category,
-        rating,
-        reviews,
-        lastUpdated,
-        image,
-        installs,
-        description,
-      };
-      
-    });
+  });
     
     return extensionDetails;
-  }
+}
