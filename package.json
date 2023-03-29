@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "mongojs": "^3.1.0",
     "puppeteer": "^19.7.2",
     "puppeteer-cluster": "^0.23.0"
   }

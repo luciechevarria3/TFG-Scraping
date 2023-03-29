@@ -1,21 +1,22 @@
 import { Cluster } from "puppeteer-cluster";
 import fs from "fs";
 import { getExtensionDetails } from "./chromeExtDetails.js";
-// const mongojs = require("mongojs");
+import mongojs from "mongojs";
 
-// let addDetails = (details) => {
-//   // insert the document
-//   const db = mongojs("mongodb://127.0.0.1:27017/extensions", ["details"]);
-//   db.details.insert(details, async (err, result) => {
-//     if (err) {
-//       console.log(err);
-//     } else {
-//       console.log(details);
-//     }
+/// FUNCIÓN PARA AÑADIR DETALLES DE EXTENSIÓN A LA BBDD
+let addDetails = (details) => {
+  // insert the document
+  const db = mongojs("extensionsDetails", ["chrome"]);
+  db.chrome.insert(details, async (err, result) => {
+    if (err) {
+      console.log("ERROR: inserción a BBDD: " + err);
+    } else {
+      console.log("Extensión insertada correctamente: " + JSON.stringify(details));
+    }
 
-//     await db.close();
-//   });
-// };
+    await db.close();
+  });
+};
 
 const extensions = process.argv[2]; // Número de urls de chrome a scrapear
 
@@ -27,23 +28,26 @@ console.log("[CHROME] == Scraping initialized");
   // PUPPETEER-CLUSTER: opciones de arranque
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_PAGE,
-    maxConcurrency: 5,
-    puppeteerOptions: {headless: false}
+    maxConcurrency: 2,
+    // puppeteerOptions: {headless: false}
   });
   
   let extensionsInfo = [];  // Lista con información de todas las extensiones
   
-  // Define a task (in this case: screenshot of page)
+  /// PROCESO QUE SE EJECUTARÁ PARA CADA EXTENSIÓN
   await cluster.task(async ({ page, data: url }) => {
 
     await page.goto(url);
     
+    // Conseguir información de la extensión
     const extensionDetails = await getExtensionDetails(page);
     
+    // Añadir información a la lista
     extensionsInfo.push(extensionDetails);
-    
-    // addDetails(this.extensionDetails);
 
+    // Añadir información a la BBDD
+    addDetails(extensionDetails);
+    
   });
   
   /// PROCESO PARA AÑADIR LAS URLS A LA QUEUE DEL CLUSTER PUPPETEER  
@@ -68,12 +72,14 @@ console.log("[CHROME] == Scraping initialized");
   await cluster.idle();
   await cluster.close();
   
+  /// PROCESO AÑADIR DETALLES DE EXTENSIÓN A "chromeExtensions.json"
   // Preparar la lista para añadirla a edgeExtensions.json
   extensionsInfo = JSON.stringify(extensionsInfo, 0, 2);
   
   // Guardar los datos en un fichero .json
   fs.writeFileSync("./chromeScraper/chromeExtensions.json", extensionsInfo);
 
+  /// FIN DE SCRAPEO
   console.log("[CHROME] == Scraping finalizado.");
   console.timeEnd("[CHROME] == Tiempo para scrapear " + extensions + " extensiones");
 })();

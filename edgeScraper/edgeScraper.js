@@ -1,6 +1,23 @@
 import { Cluster } from "puppeteer-cluster";
 import fs from "fs";
+import mongojs from "mongojs";
+
 import { getExtensionDetails } from "./edgeExtDetails.js";
+
+/// FUNCIÓN PARA AÑADIR DETALLES DE EXTENSIÓN A LA BBDD
+let addDetails = (details) => {
+  // insert the document
+  const db = mongojs("extensionsDetails", ["edge"]);
+  db.edge.insert(details, async (err, result) => {
+    if (err) {
+      console.log("ERROR: inserción a BBDD: " + err);
+    } else {
+      console.log("Extensión insertada correctamente: " + JSON.stringify(details));
+    }
+
+    await db.close();
+  });
+};
 
 const extensions = process.argv[2]; // Número de extensiones que se quiere scrapear
 
@@ -25,10 +42,13 @@ console.log("[EDGE] == Scraping initialized");
     await page.goto(url);
     
     // Conseguir los atributos de la extensión
-    const extensionInfo = await getExtensionDetails(page);
+    const extensionDetails = await getExtensionDetails(page);
     
     // Añadir la información a la lista
-    extensionsInfo.push(extensionInfo);
+    extensionsInfo.push(extensionDetails);
+
+    // Añadir información a la BBDD
+    addDetails(extensionDetails);
     
   });
   
