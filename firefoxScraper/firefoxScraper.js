@@ -1,23 +1,23 @@
 import { Cluster } from 'puppeteer-cluster';
 import fs from 'fs';
-import mongojs from "mongojs";
 
 import { getExtensionDetails } from './firefoxExtDetails.js';
+import { addDetails } from "../databaseManagment/addDetails.js";
 
 /// FUNCIÓN PARA AÑADIR DETALLES DE EXTENSIÓN A LA BBDD
-let addDetails = (details) => {
-  // insert the document
-  const db = mongojs("extensionsDetails", ["firefox"]);
-  db.firefox.insert(details, async (err, result) => {
-    if (err) {
-      console.log("ERROR: inserción a BBDD: " + err);
-    } else {
-      console.log("Extensión insertada correctamente: " + JSON.stringify(details));
-    }
+// let addDetails = (details) => {
+//   // insert the document
+//   const db = mongojs("extensionsDetails", ["firefox"]);
+//   db.firefox.insert(details, async (err, result) => {
+//     if (err) {
+//       console.log("ERROR: inserción a BBDD: " + err);
+//     } else {
+//       console.log("Extensión insertada correctamente: " + JSON.stringify(details));
+//     }
 
-    await db.close();
-  });
-};
+//     await db.close();
+//   });
+// };
 
 
 const extensions = process.argv[2]; // Número de urls de firefox a scrapear
@@ -47,7 +47,7 @@ console.log("[FIREFOX] == Scraping initialized");
     extensionsInfo.push(extensionDetails);
 
     // Añadir información a la BBDD
-    addDetails(extensionDetails);
+    addDetails(extensionDetails, "firefox");
 
   });
 
