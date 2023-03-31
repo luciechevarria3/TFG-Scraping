@@ -29,7 +29,7 @@ console.log("[CHROME] == Scraping initialized");
   // PUPPETEER-CLUSTER: opciones de arranque
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_PAGE,
-    maxConcurrency: 2,
+    maxConcurrency: 3,
     // puppeteerOptions: {headless: false}
   });
   

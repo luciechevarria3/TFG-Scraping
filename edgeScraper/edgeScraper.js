@@ -29,10 +29,10 @@ console.log("[EDGE] == Scraping initialized");
   // PUPPETEER-CLUSTER: opciones de arranque
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_CONTEXT, // Incognito pages
-    maxConcurrency: 2, // Cuantas extensiones scrapear en cada repetición
+    maxConcurrency: 3, // Cuantas extensiones scrapear en cada repetición
     puppeteerOptions: {
       // headless: false,
-      defaultViewport: false,
+      // defaultViewport: false,
     },
   });
   
