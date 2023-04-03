@@ -2,7 +2,7 @@ import { Cluster } from "puppeteer-cluster";
 import fs from "fs";
 
 import { getExtensionDetails } from "./chromeExtDetails.js";
-import { addDetails } from "../databaseManagment/addDetails.js";
+import { addDetails } from "../databaseManagment/dbManagement.js";
 
 /// FUNCIÓN PARA AÑADIR DETALLES DE EXTENSIÓN A LA BBDD
 // let addDetails = (details) => {
@@ -47,7 +47,7 @@ console.log("[CHROME] == Scraping initialized");
     extensionsInfo.push(extensionDetails);
 
     // Añadir información a la BBDD
-    addDetails(extensionDetails, "chrome");
+    addDetails(extensionDetails);
     
   });
   
