@@ -3,7 +3,7 @@
 import { exec } from 'child_process';
 
 /// PROCESO PARA EJECUTAR SCRAPER DE CHROME (argumento: nº de extensiones a scrapear)
-const chromeChild = exec('node ./chromeScraper/chromeScraper.js 1000',
+const chromeChild = exec('node ./chromeScraper/chromeScraper.js 30',
 function (error, stdout, stderr) {
   console.log('\n stdout: ' + stdout);
   console.log('\n stderr: ' + stderr);
@@ -13,7 +13,7 @@ function (error, stdout, stderr) {
 });
 
 /// PROCESO PARA EJECUTAR SCRAPER DE EDGE (argumento: nº de extensiones a scrapear)
-const edgeChild = exec('node ./edgeScraper/edgeScraper.js 1000',
+const edgeChild = exec('node ./edgeScraper/edgeScraper.js 30',
 function (error, stdout, stderr) {
   console.log('\n stdout: ' + stdout);
   console.log('\n stderr: ' + stderr);
@@ -23,7 +23,7 @@ function (error, stdout, stderr) {
 });
 
 /// PROCESO PARA EJECUTAR SCRAPER DE FIREFOX (argumento: nº de extensiones a scrapear)
-const firefoxChild = exec('node ./firefoxScraper/firefoxScraper.js 1000',
+const firefoxChild = exec('node ./firefoxScraper/firefoxScraper.js 30',
 function (error, stdout, stderr) {
   console.log('\n stdout: ' + stdout);
   console.log('\n stderr: ' + stderr);
