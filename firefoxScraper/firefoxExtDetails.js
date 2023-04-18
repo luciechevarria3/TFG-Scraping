@@ -47,13 +47,19 @@ export async function getExtensionDetails(page) {
     let category = categories.join(" , ");
     
     // Rating de la extensión
-    const rating = parseFloat(document.querySelector('.AddonMeta-rating-title').textContent.split(" ")[0]);
+    let rating = document.querySelector('.AddonMeta-rating-title').textContent
+    if (!rating.includes('Not')) {
+      rating = parseFloat(rating.split(" ")[0]);
+    }
     
     // Nº de reviews de la extensión
-    const reviews = parseInt( document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[1].firstChild.textContent.replace(",","") )
+    let reviews = document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[1].childNodes[1].textContent;
+    if (!reviews.includes('No')) {
+      reviews = parseInt( document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[1].firstChild.textContent.replace(",","") );
+    }
     
     // Fecha de última actualización
-    const lastUpdated = document.querySelector(".Definition-dd.AddonMoreInfo-last-updated").innerText.match(/\((.*)\)/i)[1]
+    const lastUpdated = document.querySelector(".Definition-dd.AddonMoreInfo-last-updated").innerText.match(/\((.*)\)/i)[1];
     
     // Imagen de la extensión
     const image = document.querySelector('img').src;
