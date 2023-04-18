@@ -4,22 +4,6 @@ import fs from 'fs';
 import { getExtensionDetails } from './firefoxExtDetails.js';
 import { addDetails } from "../databaseManagment/dbManagement.js";
 
-/// FUNCIÓN PARA AÑADIR DETALLES DE EXTENSIÓN A LA BBDD
-// let addDetails = (details) => {
-//   // insert the document
-//   const db = mongojs("extensionsDetails", ["firefox"]);
-//   db.firefox.insert(details, async (err, result) => {
-//     if (err) {
-//       console.log("ERROR: inserción a BBDD: " + err);
-//     } else {
-//       console.log("Extensión insertada correctamente: " + JSON.stringify(details));
-//     }
-
-//     await db.close();
-//   });
-// };
-
-
 const extensions = process.argv[2]; // Número de urls de firefox a scrapear
 
 console.time("[FIREFOX] == Tiempo para scrapear " + extensions + " extensiones");

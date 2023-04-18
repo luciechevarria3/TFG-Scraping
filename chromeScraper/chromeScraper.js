@@ -4,21 +4,6 @@ import fs from "fs";
 import { getExtensionDetails } from "./chromeExtDetails.js";
 import { addDetails } from "../databaseManagment/dbManagement.js";
 
-/// FUNCIÓN PARA AÑADIR DETALLES DE EXTENSIÓN A LA BBDD
-// let addDetails = (details) => {
-//   // insert the document
-//   const db = mongojs("extensionsDetails", ["chrome"]);
-//   db.chrome.insert(details, async (err, result) => {
-//     if (err) {
-//       console.log("ERROR: inserción a BBDD: " + err);
-//     } else {
-//       console.log("Extensión insertada correctamente: " + JSON.stringify(details));
-//     }
-
-//     await db.close();
-//   });
-// };
-
 const extensions = process.argv[2]; // Número de urls de chrome a scrapear
 
 console.time("[CHROME] == Tiempo para scrapear " + extensions + " extensiones");
@@ -38,7 +23,7 @@ console.log("[CHROME] == Scraping initialized");
   /// PROCESO QUE SE EJECUTARÁ PARA CADA EXTENSIÓN
   await cluster.task(async ({ page, data: url }) => {
 
-    await page.goto(url);
+    await page.goto(url+'?hl=en');
     
     // Conseguir información de la extensión
     const extensionDetails = await getExtensionDetails(page);

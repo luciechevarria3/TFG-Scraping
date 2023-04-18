@@ -4,21 +4,6 @@ import fs from "fs";
 import { getExtensionDetails } from "./edgeExtDetails.js";
 import { addDetails } from "../databaseManagment/dbManagement.js";
 
-/// FUNCIÓN PARA AÑADIR DETALLES DE EXTENSIÓN A LA BBDD
-// let addDetails = (details) => {
-//   // insert the document
-//   const db = mongojs("extensionsDetails", ["edge"]);
-//   db.edge.insert(details, async (err, result) => {
-//     if (err) {
-//       console.log("ERROR: inserción a BBDD: " + err);
-//     } else {
-//       console.log("Extensión insertada correctamente: " + JSON.stringify(details));
-//     }
-
-//     await db.close();
-//   });
-// };
-
 const extensions = process.argv[2]; // Número de extensiones que se quiere scrapear
 
 console.time("[EDGE] == Tiempo para scrapear " + extensions + " extensiones");
@@ -39,7 +24,7 @@ console.log("[EDGE] == Scraping initialized");
   // COMIENZO DEL PROCESO DE SCRAPEO
   let extensionsInfo = []; // Lista que guardará la información de cada extensión
   await cluster.task(async ({ page, data: url }) => {
-    await page.goto(url);
+    await page.goto(url+'?hl=en');
     
     // Conseguir los atributos de la extensión
     const extensionDetails = await getExtensionDetails(page);
