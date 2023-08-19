@@ -11,12 +11,14 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/1302/1302193-64.png?modified=60e5e651",
     "installs": 6,
     "description": "Changes the term \"Artificial Intelligence\" or \"AI\" to \"Genie in a Bottle. Because news about AI are written in a way that makes it seem like a higher power. Works also in Finnish. Credit of the idea goes to my friend Lauri. Source at https://github.com/mikkoim/genie",
-    "lastScraped": "4-8-2023 13:23:40"
+    "lastScraped": "19-8-2023 11:5:46",
+    "_id": "64e085ea3dca5c1884d41e50"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/-0/",
-    "error": "Extension Not Available"
+    "error": "Extension Not Available",
+    "_id": "64e085ec3dca5c1884d41e51"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -30,7 +32,8 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/2602/2602194-64.png?modified=32945bfe",
     "installs": 1,
     "description": "Wypl est un assistant de navigation qui permet à l’internaute de protéger sa vie privée quand il navigue sur internet tout en recentrant la pertinence de ses recherches sur ses besoins réels par l’indexation d’un contenu personnalisé.\n\nLa solution est téléchargeable gratuitement par internet et s’installe facilement. Grâce à son intelligence embarquée, Wypl permet de minimiser l’utilisation des moteurs de recherche et d’en réguler la consommation. Moteurs qui font transiter par leurs serveurs l’ensemble des\ndonnées générées dans le cadre de leur utilisation, exposant les internautes à une utilisation de leurs données personnelles non conscientes et non autorisées d’une part les annonceurs à des frais de référencement exponentiels les plaçant sous une véritable dépendance et domination\néconomiques d’autre part.\n\nDe plus Wypl agira comme un pare-feu en empêchant l’accès aux données personnelles de l’internaute des programmes de tracking collecteurs de données privées.\n\nL’assistance fournie par la Wypl permet à l’internaute d’avoir un contrôle accru sur son utilisation d’internet, tant dans ses recherches que sur la gestion de ses données personnelles.",
-    "lastScraped": "4-8-2023 13:23:47"
+    "lastScraped": "19-8-2023 11:5:50",
+    "_id": "64e085ee3dca5c1884d41e52"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -44,7 +47,8 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/2615/2615694-64.png?modified=7bf5f35c",
     "installs": 36,
     "description": "This add-on adds a drop down menu offering reverse image searches when an online image is right clicked.\n\nThere are no permission requirements.\n\nSearch Engines Available:\nGoogle\nBing\nYandex\nTinEye\nSauceNao\nIQDB",
-    "lastScraped": "4-8-2023 13:23:48"
+    "lastScraped": "19-8-2023 11:5:51",
+    "_id": "64e085ef3dca5c1884d41e53"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -58,7 +62,8 @@
     "image": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png",
     "installs": 3,
     "description": "Türkiye'de wikipedia.org'a erişim yasaklandığı için insanların çoğu 0wikipedia.org alternatifine yöneliyor. Bu eklenti, Wikipedia linkine tıkladığınızda sizi otomatik olarak 0wikipedia.org adresine yönlendiriyor.\n\nTurkey blocks access to wikipedia.org and many people are using 0wikipedia.org alternative to keep reading wikipedia articles. This extension automatically redirects you to 0wikipedia.org equivalent when you click on a Wikipedia link.",
-    "lastScraped": "4-8-2023 13:23:53"
+    "lastScraped": "19-8-2023 11:5:53",
+    "_id": "64e085f13dca5c1884d41e54"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -72,7 +77,8 @@
     "image": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png",
     "installs": 1,
     "description": "Switch your Firefox tabs like in old Opera 12 Presto! Easily switch between tabs to the left or right using the ordinary keys 1 and 2.",
-    "lastScraped": "4-8-2023 13:23:53"
+    "lastScraped": "19-8-2023 11:5:55",
+    "_id": "64e085f33dca5c1884d41e55"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -84,8 +90,9 @@
     "ratedBy": 11,
     "lastUpdated": "Sep 11, 2018",
     "image": "https://addons.mozilla.org/user-media/addon_icons/858/858047-64.png?modified=1536263521",
-    "installs": 15,
-    "lastScraped": "4-8-2023 13:23:59"
+    "installs": 16,
+    "lastScraped": "19-8-2023 11:5:57",
+    "_id": "64e085f53dca5c1884d41e56"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -97,9 +104,10 @@
     "ratedBy": 21,
     "lastUpdated": "Nov 16, 2017",
     "image": "https://addons.mozilla.org/user-media/addon_icons/835/835915-64.png?modified=1512381934",
-    "installs": 13,
+    "installs": 15,
     "description": "Click \"1-Click Ebay Feedback\" on any Ebay Auction or Ebay User page to view all of the seller's negative and neutral feedback.\n\nViewAllFeedback collects all of the Ebay feedback in the spot, even beyond 1 year, and displays potential issues. This helps ensure the item you are considering buying comes from a seller who has an acceptable reputation. Avoid problems ahead of time and look for red flags as past negative experiences can also happen to you in the future. Save time and money with 1 click (instead of Ebay's pages which may be 20+ pages long).\n\nAddon uses 3rd party site (www.knowyourfeedback.com) for operation.\n\nPrivacy: No user information of your own is collected. Only history on the profile-of-interest is collected (and also this information is not stored for more than 1 day, and only in temporary memory). Information collected is all public on ebay user profiles (with no login required to view the ebay feedback). Our app simply makes the publicly available information easy to read in a 1-page list format.\n\neBay Inc. is a multinational e-commerce corporation, facilitating online consumer-to-consumer and business-to-consumer sales. It is headquartered in San Jose, California. eBay was founded by Pierre Omidyar in 1995, and became a notable success story of the dot-com bubble. Today eBay is a multibillion-dollar business with operations in about 30 countries.\n\nThe company manages eBay.com, an online auction and shopping website in which people and businesses buy and sell a broad variety of goods and services worldwide. In addition to its auction-style sales, the website has since expanded to include \"Buy It Now\" shopping; shopping by UPC, ISBN, or other kind of SKU number (via Half.com); online classified advertisements (via Kijiji or eBay Classifieds); online event ticket trading (via StubHub); and other services. It previously offered online money transfers (via PayPal, which was a wholly owned subsidiary of eBay from 2002 until 2015). The website is free to use for buyers, but sellers are charged fees for listing items after a limited number of free listings, and again when those items are sold.",
-    "lastScraped": "4-8-2023 13:23:59"
+    "lastScraped": "19-8-2023 11:5:59",
+    "_id": "64e085f73dca5c1884d41e57"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -111,8 +119,9 @@
     "ratedBy": 62,
     "lastUpdated": "Sep 14, 2018",
     "image": "https://addons.mozilla.org/user-media/addon_icons/837/837152-64.png?modified=1536893543",
-    "installs": 76,
-    "lastScraped": "4-8-2023 13:24:8"
+    "installs": 80,
+    "lastScraped": "19-8-2023 11:6:0",
+    "_id": "64e085f83dca5c1884d41e58"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -124,8 +133,9 @@
     "ratedBy": 11,
     "lastUpdated": "Oct 20, 2018",
     "image": "https://addons.mozilla.org/user-media/addon_icons/859/859182-64.png?modified=1512246023",
-    "installs": 26,
-    "lastScraped": "4-8-2023 13:24:9"
+    "installs": 28,
+    "lastScraped": "19-8-2023 11:6:4",
+    "_id": "64e085fc3dca5c1884d41e59"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -133,13 +143,14 @@
     "url": "https://addons.mozilla.org/en-US/firefox/addon/1-click-quality-for-twitch/",
     "publisher": "Xuxa",
     "category": "Other",
-    "rating": 5,
-    "ratedBy": 3,
+    "rating": 4.8,
+    "ratedBy": 4,
     "lastUpdated": "Jun 8, 2022",
     "image": "https://addons.mozilla.org/user-media/addon_icons/2732/2732159-64.png?modified=e7db4160",
-    "installs": 70,
+    "installs": 72,
     "description": "1.1.1:\nEN: Fixed spacing bug from v1.1, added animation toggle option.\nPT: Corrigido um bug de espaçamento da v1.1, adicionado um botão para ativar e desativar a animação.\n\n1.1:\nEN: Added position, scale and language customization.\nPT: Adicionado configurações de posição, tamanho e idioma.\n\nEN:\nAdds buttons below the stream so it lets you change qualities with just one click.\n\nThe On/Off switch saves the last quality setting, so that when you open new streams, that quality will be selected from the beginning. If it's off, it uses the last quality saved from then it was on or if you selected it through the native quality options.\n\nIf you want to go back and forth between many streams but want to let them running in low quality (160p) in the background, it's easier to change qualities this way. It was something I did for this exact purpose and thought someone else might think it's useful.\n\nPT:\nAdiciona botões abaixo do stream que permitem trocar de qualidade com um clique só.\n\nO botão de liga e desliga salva a última qualidade e quando um novo stream é aberto, ele inicia com a qualidade salva. Se está desligado, a última qualidade salva ou a qualidade selecionada com os botões padrões do player será usada.\n\nCaso queira ficar trocando de streams mas precisa que eles rodem em uma qualidade baixa quando não estiver assistindo (160p), é mais fácil trocar dessa forma. Foi algo que fiz exatamente com esse propósito e achei que mais alguém poderia achar útil.",
-    "lastScraped": "4-8-2023 13:24:12"
+    "lastScraped": "19-8-2023 11:6:4",
+    "_id": "64e085fc3dca5c1884d41e5a"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -151,8 +162,9 @@
     "ratedBy": 8,
     "lastUpdated": "Dec 11, 2017",
     "image": "https://addons.mozilla.org/user-media/addon_icons/902/902577-64.png?modified=1514531778",
-    "installs": 11,
-    "lastScraped": "4-8-2023 13:24:14"
+    "installs": 9,
+    "lastScraped": "19-8-2023 11:6:8",
+    "_id": "64e086003dca5c1884d41e5b"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -166,21 +178,8 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/980/980954-64.png?modified=3a942a92",
     "installs": 1,
     "description": "Kindle Unlimitedに登録されている本だけ「1-Clickで今すぐ買う」を表示しないようにし、キンドル本のページからクラウドリーダーでひらく。\n\nKindle Unlimitedが始まって対象の本は定額で読み放題で間違って購入するのを防ぐ。Kindle Unlimitedに登録されている本だけ「1-Clickで今すぐ買う」を表示しないようにして、間違って購入しないようにするツール。\n\nアイコンをクリックすると、「クラウドリーダー」と「KindleUNLIMITEDの管理ページヘ」のリンクができる。アマゾンのキンドルのページで「クラウドリーダーで読む」をクリックすると、現在みているキンドルをクラウドリーダーで開く。\n[対象サイト]\nAmazon（https://www.amazon.co.jp/）\nキンドルクラウドリーダー（https://read.amazon.co.jp/）\n\n\nGitHubのページ\nhttps://github.com/kyukyunyorituryo/1click-remove",
-    "lastScraped": "4-8-2023 13:24:18"
-  },
-  {
-    "webstore": "Firefox Browser Add-Ons",
-    "name": "1-Click Shorten URL",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/1-click-shorten-url/",
-    "publisher": "1ClickProduct",
-    "category": "Bookmarks , Social & Communication",
-    "rating": 4.4,
-    "ratedBy": 68,
-    "lastUpdated": "Nov 20, 2017",
-    "image": "https://addons.mozilla.org/user-media/addon_icons/835/835921-64.png?modified=1511158822",
-    "installs": 190,
-    "description": "\"1-Click\" and shorten any url. 1ClickURLs.com is the only shortener that can shorten more than 1 URL at a time ... shorten multiple URLs at one time.\n\nMake a URL short and easy to copy and paste with our 1-Click copy button.\n\nEasier than google goo.gl, tinyurl.com tinyurl, bit.ly bitly.com, owly ow.ly, isgd is.gd, buffly buff.ly, adfly adf.ly, bitdo bit.do, mcafee mcaf.ee.\n\nAddon uses 3rd party site (www.1clickurls.com) for operation.",
-    "lastScraped": "4-8-2023 13:24:22"
+    "lastScraped": "19-8-2023 11:6:8",
+    "_id": "64e086003dca5c1884d41e5c"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -192,9 +191,25 @@
     "ratedBy": 6,
     "lastUpdated": "Jan 7, 2018",
     "image": "https://addons.mozilla.org/user-media/addon_icons/910/910157-64.png?modified=1515363625",
-    "installs": 11,
+    "installs": 13,
     "description": "*Open all the URLs you want with the click of 1 button!*\n\nDo you have a lot of websites you want to visit everyday? You can now do that with the click of 1 button!\n\nWhy choose 1-Click URL Opener?\n- It's easy! (ezpz)\n- It's fast! (2fast4u)\n- It's handy! (handy-dandy)\n\nDownload this extension today!",
-    "lastScraped": "4-8-2023 13:24:25"
+    "lastScraped": "19-8-2023 11:6:12",
+    "_id": "64e086043dca5c1884d41e5d"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "1-Click Shorten URL",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1-click-shorten-url/",
+    "publisher": "1ClickProduct",
+    "category": "Bookmarks , Social & Communication",
+    "rating": 4.4,
+    "ratedBy": 68,
+    "lastUpdated": "Nov 20, 2017",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/835/835921-64.png?modified=1511158822",
+    "installs": 189,
+    "description": "\"1-Click\" and shorten any url. 1ClickURLs.com is the only shortener that can shorten more than 1 URL at a time ... shorten multiple URLs at one time.\n\nMake a URL short and easy to copy and paste with our 1-Click copy button.\n\nEasier than google goo.gl, tinyurl.com tinyurl, bit.ly bitly.com, owly ow.ly, isgd is.gd, buffly buff.ly, adfly adf.ly, bitdo bit.do, mcafee mcaf.ee.\n\nAddon uses 3rd party site (www.1clickurls.com) for operation.",
+    "lastScraped": "19-8-2023 11:6:12",
+    "_id": "64e086043dca5c1884d41e5e"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -206,9 +221,10 @@
     "ratedBy": 58,
     "lastUpdated": "Jul 23, 2017",
     "image": "https://addons.mozilla.org/user-media/addon_icons/835/835916-64.png?modified=1506769574",
-    "installs": 65,
+    "installs": 63,
     "description": "\"1-Click\" and no need to hit the play button again when listening to videos or songs.\n\nPlay Youtube videos and repeat and loop your favorite Youtube videos and songs. It's the easiest Looper around and comes with a free counter. Keep a counter of how many times you've played so you know how addicted to a good song you are.\n\nAddon uses 3rd party site (www.tubepeat.com) for operation.",
-    "lastScraped": "4-8-2023 13:24:27"
+    "lastScraped": "19-8-2023 11:6:16",
+    "_id": "64e086083dca5c1884d41e5f"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -222,7 +238,8 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/1477/1477218-64.png?modified=6ff5cb54",
     "installs": 5,
     "description": "1 Key Web Search makes web searching faster by associating your keyboard Keys with your Search Engines for instant access.\nAlthough Firefox has improved web searching over the last few years, this Add-on will speed it up even more by eliminating the mouse from your web searches. Since you need to be typing to enter your search text anyway, it doesn't make ergonomic sense to have to do anything with the mouse in order to search.\nThis Add-on also can search the web for text displayed on any web page with one keypress.",
-    "lastScraped": "4-8-2023 13:24:29"
+    "lastScraped": "19-8-2023 11:6:16",
+    "_id": "64e086093dca5c1884d41e60"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -234,8 +251,9 @@
     "ratedBy": 0,
     "lastUpdated": "Jun 9, 2018",
     "image": "https://addons.mozilla.org/user-media/addon_icons/980/980123-64.png?modified=806f7908",
-    "installs": 1,
-    "lastScraped": "4-8-2023 13:24:31"
+    "installs": null,
+    "lastScraped": "19-8-2023 11:6:19",
+    "_id": "64e0860b3dca5c1884d41e61"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -249,7 +267,8 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/1484/1484584-64.png?modified=9b7ba660",
     "installs": 206,
     "description": "Get your own temporary disposable 10 minute mail address without registration.\nThe extension provides free 10 minute mail service.\nDisposable email with attachments and very easy to use.\n\nHow to use ?\nInstall the app to your browser and enjoy temporary 10 minute disposable email addresses without visiting the website itself. Just click the icon in the right upper corner of the browser. A window with new temporary email address will appear in a second. This window will also appear with notifications about new emails in your inbox.\n\nPlease visit our website for more questions : https://10minEmail.com",
-    "lastScraped": "4-8-2023 13:24:33"
+    "lastScraped": "19-8-2023 11:6:19",
+    "_id": "64e0860b3dca5c1884d41e62"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -262,7 +281,8 @@
     "lastUpdated": "Jul 10, 2020",
     "image": "https://addons.mozilla.org/user-media/addon_icons/2652/2652025-64.png?modified=f972a435",
     "installs": 1,
-    "lastScraped": "4-8-2023 13:24:35"
+    "lastScraped": "19-8-2023 11:6:21",
+    "_id": "64e0860d3dca5c1884d41e63"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -274,9 +294,10 @@
     "ratedBy": 3,
     "lastUpdated": "Sep 8, 2020",
     "image": "https://addons.mozilla.org/user-media/addon_icons/2661/2661680-64.png?modified=fdf5abb4",
-    "installs": 231,
+    "installs": 216,
     "description": "1000 Bots is a simple web extension which changes your browser’s user agent to that of the Googlebot. Googlebot is a web crawler which surfs the web extensively to build a searchable index for the Google search engine (making it one of the most influential Internet users. Only what it sees is indexed and can later be found by other users). By changing your settings to match those of Googlebot, you become one of thousands of Google web crawlers browsing the web to index its contents.\n\nSurfing the web as Googlebot gives you access to what is referred to as the grey web, a layer of content only visible to bots. In some cases it might give you access to websites and archives that are usually hidden behind a paywall. Because while the website owner will present the regular user with a login page, they will give web crawlers access to their full archive in order for it to be represented in Google’s search results.\n\nStep 1:\n💻 Install the web extension\n\nStep 2:\n📡 To start surfing as Googlebot, clicking on the icon in the browser toolbar\n\nStep 3:\n🏄🏾‍♀️ Surf your favourite websites\n\nStep 4:\n🌐 Check RYBN's Double Negative Capchas to see if you pass the bot test.\nhttps://1000scores.com/portfolio-items/rybn-double-negative-captchas/\n(You might have to take the test twice until it works.)\n\n1000 Bots is an art piece by !Mediengruppe Bitnik commissioned by the website 1000scores.com & Literaturforum im Brecht-Haus Berlin.\n\nThe source code [1] for 1000 Bots is free software and published under the GNU GPLv3. 1000 Bots is a response to RYBN's wonderful work Double Negative Captchas.\n\n<3 !Mediengruppe Bitnik\n\n[1] source code: https://wwwwwwwwwwwwwwwwwwwwww.bitnik.org/data/code/1000_bots_webextension.zip",
-    "lastScraped": "4-8-2023 13:24:38"
+    "lastScraped": "19-8-2023 11:6:22",
+    "_id": "64e0860e3dca5c1884d41e64"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -289,7 +310,8 @@
     "lastUpdated": "Jan 27, 2018",
     "image": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.d144b50f2bb8.png",
     "installs": 1,
-    "lastScraped": "4-8-2023 13:24:41"
+    "lastScraped": "19-8-2023 11:6:25",
+    "_id": "64e086113dca5c1884d41e65"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -301,9 +323,10 @@
     "ratedBy": 3,
     "lastUpdated": "Sep 14, 2022",
     "image": "https://addons.mozilla.org/user-media/addon_icons/2742/2742620-64.png?modified=e1e7fe12",
-    "installs": 107,
+    "installs": 105,
     "description": "101weiqi.com is a Chinese language web site where you can solve problems for the Go / Weiqi / Baduk board game. This add-on aims to make it easier for those of us who don't read Chinese to use that site, by adding a script to 101weiqi.com's pages which replaces a list of common words with the English translation. It does not alter the functionality of 101weiqi.com in any way.\n\nThis add-on was initially developed as a Chrome extension, and it's distributed here with permission from the author. The code can be found on GitHub. The original author is Marcel Grünauer and his code is here.",
-    "lastScraped": "4-8-2023 13:24:44"
+    "lastScraped": "19-8-2023 11:6:25",
+    "_id": "64e086113dca5c1884d41e66"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -315,9 +338,10 @@
     "ratedBy": 0,
     "lastUpdated": "Aug 21, 2019",
     "image": "https://addons.mozilla.org/user-media/addon_icons/2247/2247769-64.png?modified=66c6b2cf",
-    "installs": null,
+    "installs": 1,
     "description": "הוסף מוצרים ישירות מ-eBay ו-AliExpress לחנות שלך ב-10Buy.\nתתווסף תיבה בעמוד ה-eBay/AliExpress של המוצר להוספה מהירה - ממנה ניתן להוסיף את המוצר לחנות ה-10Buy באופן ישיר ולבחור קטגוריה עבורו.",
-    "lastScraped": "4-8-2023 13:24:47"
+    "lastScraped": "19-8-2023 11:6:28",
+    "_id": "64e086143dca5c1884d41e67"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -331,7 +355,8 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/865/865744-64.png?modified=28ae2e35",
     "installs": 19,
     "description": "Look up Japanese words with the hover of a mouse.\n\nAfter enabling the add-on from the toolbar (or press Alt+R) simply hover over Japanese text and a popup displays corresponding dictionary definitions.\n\nFeatures:\n\nPitch accent information\nAutomatically updating dictionaries (updating twice a week)\nSupport for non-English dictionaries\nTranslation of\nJapanese yen amounts (e.g. 30億円) into another currency,\nJapanese numbers (e.g. 13億5千万 into 1,350,000,000),\nJapanese-era years (e.g. 昭和５６年、令和元年),\n畳/帖 measurements (e.g. 四畳半、12.6 帖),\nshogi moves (e.g. ☗８三銀引成)\nRecognition of a wide range of grammatical forms (e.g. 兼した, 食べてた, 分からん、じーちゃん、頑張ろー、そーゆー, 買っとく etc.)\nAutomatic preview of name entries\nHandling of a wide range of characters (e.g. ㌀, ㋿, 𠏹沢, ８月, Ｂ級グルメ,\nオーサカ)\nLocalized into Japanese (so you can study Japanese while you study Japanese!) and Simplified Chinese\nRomaji transliteration\nCopy to clipboard in various formats\nSupport for the widest range of Web content (vertical text, SVG images, hidden text etc.)\nMinimal memory usage\nKanji data for Kanji kentei, Conning references, updated educational levels, heavily reworked kanji components etc.\n\n10ten Japanese Reader aims to be simple, reliable, fast, and always up-to-date.\n\nTwitter: @10tenstudy",
-    "lastScraped": "4-8-2023 13:24:50"
+    "lastScraped": "19-8-2023 11:6:28",
+    "_id": "64e086143dca5c1884d41e68"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -345,7 +370,8 @@
     "image": "https://addons.mozilla.org/user-media/addon_icons/979/979321-64.png?modified=18cb42a1",
     "installs": 1,
     "description": "Don't you love finding a perfect app you didn't even know you needed?\n\nThere's a whole world of apps and startups out there, but discovery can boring and time consuming. Your time is precious, and 10words is here to help.\n\nLearn about a new app or startup in every new tab, in 10 words or less. No flashy graphics or marketing fluff, just a quick description and a link to learn more. Not interested? Carry on with your browsing and get another app in the next tab.\n\n10words is the simplest way to discover your next favorite app, seamlessly fitting into your life.\n\n====> Startups and apps are sourced from 10words.io\n====> Would you like to include your project? Submit it free at 10words.io",
-    "lastScraped": "4-8-2023 13:24:53"
+    "lastScraped": "19-8-2023 11:6:31",
+    "_id": "64e086173dca5c1884d41e69"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -357,8 +383,9 @@
     "ratedBy": 3,
     "lastUpdated": "Jul 24, 2018",
     "image": "https://addons.mozilla.org/user-media/addon_icons/988/988790-64.png?modified=1f7f64b3",
-    "installs": 289,
-    "lastScraped": "4-8-2023 13:24:55"
+    "installs": 297,
+    "lastScraped": "19-8-2023 11:6:32",
+    "_id": "64e086183dca5c1884d41e6a"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -370,14 +397,16 @@
     "ratedBy": 4,
     "lastUpdated": "Dec 23, 2017",
     "image": "https://addons.mozilla.org/user-media/addon_icons/770/770954-64.png?modified=1514071222",
-    "installs": 185,
+    "installs": 186,
     "description": "This Add-on can change/load subtitle/caption at https://gomovies.to/ . The demo can be viewed at https://www.youtube.com/watch?v=Rj9yUnVgPSQ . This Add-on will automate the procedures that can be viewed here https://www.youtube.com/watch?v=XfO6UBJll2w . The Google Chrome counterpart can be downloaded here https://chrome.google.com/webstore/detail/123-movies-subtitle-chang/ggkmgmfojgkbdnhebbgkallikhdlcaik .",
-    "lastScraped": "4-8-2023 13:24:58"
+    "lastScraped": "19-8-2023 11:6:34",
+    "_id": "64e0861a3dca5c1884d41e6b"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/115%E7%BD%91%E7%9B%98%E5%AF%BC%E5%87%BA/",
-    "error": "Extension Not Available"
+    "error": "Extension Not Available",
+    "_id": "64e0861c3dca5c1884d41e6c"
   },
   {
     "webstore": "Firefox Browser Add-Ons",
@@ -389,8 +418,305 @@
     "ratedBy": 2,
     "lastUpdated": "Jan 8, 2019",
     "image": "https://addons.mozilla.org/user-media/addon_icons/1018/1018974-64.png?modified=87a82c86",
-    "installs": 41,
+    "installs": 44,
     "description": "12306官网提供自动刷票机制，所以完全没必要购买那些莫名的刷票软件，只是12306的官刷间隔要5秒之久，且预先设定的人员车次坐席等信息，很容易在中途丢失，导致不能自动提交。\n\n这个小工具可以助力刷票加速，缩短刷票间隔，速度提升数倍，同时帮助记忆订票信息，无须重新设置，争分夺秒助你完成订单提交。\n\n按照说明4步骤，多加熟练，可以大大提升买到票的几率。\n\n小工具不涉及验证码破解和个人隐私数据，免费分享，希望所有人都有票回家。",
-    "lastScraped": "4-8-2023 13:25:2"
+    "lastScraped": "19-8-2023 11:6:37",
+    "_id": "64e0861d3dca5c1884d41e6d"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "126music-downloader",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/126music-downloader/",
+    "publisher": "Doraemon",
+    "category": "Download Management , Photos, Music & Videos",
+    "rating": 4,
+    "ratedBy": 4,
+    "lastUpdated": "Jun 27, 2021",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2708/2708591-64.png?modified=0d5b0732",
+    "installs": 398,
+    "lastScraped": "19-8-2023 11:6:39",
+    "_id": "64e0861f3dca5c1884d41e6e"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "12bytes.org Search",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/12bytes-org-search/",
+    "publisher": "12bytes",
+    "category": "Feeds, News & Blogging , Search Tools",
+    "rating": 2.5,
+    "ratedBy": 2,
+    "lastUpdated": "Oct 31, 2020",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2668/2668859-64.png?modified=33a52e7d",
+    "installs": null,
+    "description": "This very simple extension adds a search engine for 12bytes.org to your list of search engines. Why would you want to search that site you ask? Well, i think it's a good source for general information, but since i'm the webmaster, i'm pretty biased so i suppose you should check it out for yourself :)\n\nIf you search from Firefox's address bar, you can use the keyword \"12b\" to quickly search 12bytes.org, or you can select the search engine from the list of those you have installed.\n\nTopics on 12bytes.org include...\n\n* Internet privacy, particularly with regard to Firefox and add-ons, search engines and more\n* Various resources, such as (reasonably) trustworthy alternative news sites\n* Investigations into interesting people and subjects\n* History\n* Environment\n* Alternative healthcare\n\nThis add-on is very small and clean and does not hijack your browser or change your default search engine.\n\nThis add-on respects your right to privacy and therefore does not collect any data or send anything anywhere, other than your search query to 12bytes.org, which also respects your privacy.",
+    "lastScraped": "19-8-2023 11:6:40",
+    "_id": "64e086203dca5c1884d41e6f"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "12ft",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/12ft/",
+    "publisher": "Thomas Millar",
+    "category": "Privacy & Security",
+    "rating": 2.1,
+    "ratedBy": 26,
+    "lastUpdated": "Sep 11, 2021",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2720/2720239-64.png?modified=4592fe26",
+    "installs": 126,
+    "description": "Hop the paywall, browse a cleaner web\n\n12ft Pro is a browser extension that will automatically remove paywalls, banner ads, and other popups your favorite websites. You can try the service for free at 12ft.io, the extension just does it better and automatically.",
+    "lastScraped": "19-8-2023 11:6:42",
+    "_id": "64e086223dca5c1884d41e70"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "12Startpage.com",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/12startpage-com/",
+    "publisher": "OCIS",
+    "category": "Bookmarks",
+    "rating": 4.1,
+    "ratedBy": 8,
+    "lastUpdated": "Jul 31, 2018",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/811/811388-64.png?modified=3fc8820b",
+    "installs": 19,
+    "description": "Starte ins Web mit einer schnellen und intelligenten Startseite.\nAlle wichtigen Funktionen auf einer Seite.\n\nÜbersicht:\n\n1. Websuche mit Google, Bing oder Yahoo.\n2. eMail, Wetter, Google Kalendar, Notizen.\n3. Deine Lesezeichen direkt auf der Startseite griffbereit.\n4. Eine Suchleiste mit mehreren Zielen. Amazon, eBay, Youtube, Wikipedia, Translator und weitere Tools.\n5. Lade ein eigenes privates Hintergrundbild von Deiner Familie, Auto, Haustier, Landschaft usw hoch oder verwende eines der Bilder in der Galerie.\n6. Snychronisiere Deine Lesezeichen mit deinem Handy oder tablet.\n\nAGB\nhttp://www.12startpage.com/pages/de/agb.php\n\nDatenschutzerklärung\nhttp://www.12startpage.com/pages/de/datenschutz.php\n\n----------------------------------------------------------------------\n\nStart the web with your intelligent Startpage.\nAll important functions from one source.\n\nOverview:\n\n1. Search from Google, Bing or Yahoo.\n2. eMail, Weather, Google Calendar, Notes.\n3. Your Website-Favorites placed on startpage.\n4. One searchbar for multiple targets. Amazon, eBay, Youtube, Wikipedia, Translator and other Tools.\n5. Upload your own background image from lovely sources like family,car,pets or use our database of images.\n6. Sync your Website-Favorits with your Phone or Tablet.\n\nEULA\nhttp://www.12startpage.com/pages/en/terms.php\n\nPrivacy Policy\nhttp://www.12startpage.com/pages/en/privacy.php",
+    "lastScraped": "19-8-2023 11:6:43",
+    "_id": "64e086233dca5c1884d41e71"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "12VPX",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/12vpn-firefox/",
+    "publisher": "Wanwire BV",
+    "category": "Privacy & Security",
+    "rating": 3.7,
+    "ratedBy": 18,
+    "lastUpdated": "Jun 4, 2020",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/971/971540-64.png?modified=f13996b5",
+    "installs": 261,
+    "description": "Connect to 12VPX servers directly from your Firefox browser.",
+    "lastScraped": "19-8-2023 11:6:45",
+    "_id": "64e086253dca5c1884d41e72"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "1337 5P3AK / leet speak",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1337-5p3ak/",
+    "publisher": "Vincent Chanal",
+    "category": "Appearance , Privacy & Security",
+    "rating": 5,
+    "ratedBy": 2,
+    "lastUpdated": "Nov 3, 2018",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/1007/1007784-64.png?modified=7f72a1be",
+    "installs": null,
+    "description": "petite extension à titre de test",
+    "lastScraped": "19-8-2023 11:6:45",
+    "_id": "64e086253dca5c1884d41e73"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "1337x Magnet Links +",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1337x-magnet-links/",
+    "publisher": "Extensioneer",
+    "category": "Appearance",
+    "rating": 5,
+    "ratedBy": 1,
+    "lastUpdated": "Mar 7, 2021",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2690/2690931-64.png?modified=0423d297",
+    "installs": 110,
+    "lastScraped": "19-8-2023 11:6:48",
+    "_id": "64e086293dca5c1884d41e74"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "140chars",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/140chars/",
+    "publisher": "Versvs",
+    "category": "Feeds, News & Blogging , Social & Communication",
+    "rating": 0,
+    "ratedBy": 0,
+    "lastUpdated": "Oct 6, 2017",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/859/859396-64.png?modified=1648138451",
+    "installs": null,
+    "lastScraped": "19-8-2023 11:6:49",
+    "_id": "64e086293dca5c1884d41e75"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "160by2 Compare: Best Prices, Deals & Coupons",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/160by2compare/",
+    "publisher": "160by2Compare",
+    "category": "Alerts & Updates , Shopping",
+    "rating": 1,
+    "ratedBy": 2,
+    "lastUpdated": "Sep 21, 2016",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/723/723007-64.png?modified=1474568420",
+    "installs": 2,
+    "description": "If you are an online shopper, 160by2 compare is just the extension you need. We have created an easy and exciting way for all our users to shop better, smarter and in more efficient way by offering a bunch of services which every online shopper craves for, Like\n\nReal Time Price Comparison:\nEverytime you visit an online store 160by2 Compare automatically compares prices of the products you love across the best online shopping websites like Amazon, Flipkart, Snapdeal, Ebay, Shopclues, and more, giving you easy access to view and choose the lowest prices with just a click!\n\nCoupons:\nWe know that even the lowest prices can sometimes be pretty expensive. Don't worry we've got your back even in those times, 160by2 Compare is always there for you by offering the best suited and active coupons for the website you are on at the time, helping you save more every time you shop.\n\nBest Deals:\nIf that wasn't already enough, we go a step beyond to make sure that you never miss out on any opportunity to save money! 160by2 Compare has a unique feature that shows you the best trending and active deals for the shopping websites you love to visit!\n\n160by2 is designed to work seamlessly with chrome and it only turns up when you need it the most, which is everytime you visit an online store, otherwise it is sound asleep dreaming about you saving money all the time!\n\nWhat's the hold up?\n\nInstall Extension Now!",
+    "lastScraped": "19-8-2023 11:6:52",
+    "_id": "64e0862d3dca5c1884d41e76"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "AliPrice Search by image for sellers",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1688-com%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/",
+    "publisher": "Extensionfarm",
+    "category": "Search Tools , Shopping",
+    "rating": 4.6,
+    "ratedBy": 18,
+    "lastUpdated": "Jul 12, 2023",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2701/2701904-64.png?modified=28b30dd6",
+    "installs": 1,
+    "description": "Main features:\n1. Price history: You can check the price history within 3/6/12 months on 1688.com.\n2. Search similar products by image, click the search button or right-click and search by image, quickly find the same product on 1688, Alibaba, Taobao, etc., a must-have tool for dropshipping.\n3. Price drop alert: add the product to your favorites, you will receive a notification when the price drops.\n4. Sales statistics, analysis of the order and price distribution on Aliexpress and Shopee product list pages, the percentage of seller sales, etc.\n5. Display coupons on Taobao\n6. Copy link, added copy link button to help you to copy product links of Taobao and 1688.\n7. Capture and translate. Capture a photo and translate text on it.\n8. Review analysis: On the Aliexpress product details page, analyze the country distribution of reviewers.\n9. Download product image and video on Taobao, AE, Ali 1688 with 1 click, export image links to copy, image translation.\n10. Adde Wildberries and vvic.com search by image\n11. Currency converter, you can use the currency converter for currency conversion on 1б88.com\n12. Supported Google Lens to search similar products by image.\n13. Supported comparing the same products on 1688, and export it as a CSV file.\n\nIf you have any questions or suggestions, please feel free to contact us：\nhttps://www.aliprice.com/information/index?page=contact",
+    "lastScraped": "19-8-2023 11:6:53",
+    "_id": "64e0862d3dca5c1884d41e77"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "17Lands Extensions",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/17lands-extensions/",
+    "publisher": "fleetfoxx",
+    "category": "Games & Entertainment",
+    "rating": 0,
+    "ratedBy": 0,
+    "lastUpdated": "Jul 19, 2023",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2745/2745516-64.png?modified=91c6413d",
+    "installs": 2,
+    "description": "Current Features\nFilter by card name on the Card Ratings page\nAuto-play game replays",
+    "lastScraped": "19-8-2023 11:6:55",
+    "_id": "64e086303dca5c1884d41e78"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "17lands Collection Raw Data Downloader",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/17lands-rawdata/",
+    "publisher": "Brackmeister",
+    "category": "Games & Entertainment",
+    "rating": 0,
+    "ratedBy": 0,
+    "lastUpdated": "Jun 13, 2021",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2707/2707753-64.png?modified=6c05b630",
+    "installs": 1,
+    "lastScraped": "19-8-2023 11:6:56",
+    "_id": "64e086303dca5c1884d41e79"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "17Track This",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/17track-this/",
+    "publisher": "PickOne",
+    "category": "Alerts & Updates , Shopping",
+    "rating": 5,
+    "ratedBy": 5,
+    "lastUpdated": "Feb 21, 2019",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/1472/1472822-64.png?modified=15e64ca4",
+    "installs": 54,
+    "description": "Just select your tracking number, right click on it and click \"17Track This\". A popup window will be opened, you will see the needed information and you can close the popup",
+    "lastScraped": "19-8-2023 11:7:0",
+    "_id": "64e086343dca5c1884d41e7a"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "17TRACK",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/17track_package_tracker/",
+    "publisher": "17TRACK",
+    "category": "Shopping",
+    "rating": 5,
+    "ratedBy": 2,
+    "lastUpdated": "Feb 10, 2022",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2735/2735882-64.png?modified=a884929f",
+    "installs": 12,
+    "description": "17TRACK Real-Time Package Tracker\n\nThe latest and the most accurate tracking info updated along with the carrier's website.\n\n\"Where is my package?\"\nWe will synchronize your orders, get all your tracking information in one place.\n\nAs long as it is shipped, we can track it!\n\n- Fast, convenient, easy to use. Track your package on any pages.No more back-and-forth page-switching!\n\n- Accurate, detailed and timely update. All info is synced with the carrier's website.\n\n- 900+ carriers supported. USPS, DHL, FedEx, UPS, DPD and Singapore Post, etc.\n\n- Use it on packages from the mainstream platforms. Amazon, eBay, Aliexpress, Shopify and Wish, etc.",
+    "lastScraped": "19-8-2023 11:7:1",
+    "_id": "64e086353dca5c1884d41e7b"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "18/25 JVC Topics importants",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/18-25-jvc-topics-importants/",
+    "publisher": "Factom",
+    "category": "Alerts & Updates , Social & Communication",
+    "rating": 0,
+    "ratedBy": 0,
+    "lastUpdated": "Jan 20, 2018",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/923/923884-64.png?modified=1516461623",
+    "installs": 1,
+    "description": "Cette extension vous permets sans être sur le forum d'être avertit en cas de topic légendaires (ceux qui font l'âme du forum, ceux pour lesquels on est l'élite, ceux qu'il faut pas rater et qu'on veut vivre sur l'instant)\nLe serveur central pour cela regarde le nombre de connectés de chaque topic, bien sûr certains topics sont sélectionnés alors qu'ils sont pas légendaire mais tous les légendaires sont sélectionnés !\n\nSi vous aussi vous voulez seulement suivre le meilleur de ce forum alors cette extension est faite pour vous\n\nTopic de jvc : http://www.jeuxvideo.com/forums/42-51-54911144-1-0-1-0-mon-extension-firefox-pour-le-forum.htm",
+    "lastScraped": "19-8-2023 11:7:6",
+    "_id": "64e0863b3dca5c1884d41e7c"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "1C:Enterprise extension",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1c-enterprise-8-extension/",
+    "publisher": "1C LLC",
+    "category": "Download Management , Privacy & Security",
+    "rating": 3.3,
+    "ratedBy": 21,
+    "lastUpdated": "Jan 26, 2022",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/662/662758-64.png?modified=6ffb9539",
+    "installs": 33,
+    "description": "You can access 1C:Enterprise applications in browser using this extension.\nIt supports cryptography, 1C:Enterprise add-ins, file system, and clipboard features.\nFull-scale 1C:Enterprise 8 applications are available in cloud service https://1cfresh.com/. A free 30 day trial is provided.\nYou can download the training version of 1C:Enterprise platform absolutely free from http://online.1c.ru/catalog/programs/program/28765768/.\n\n\nGathering information\n1C:Enterprise extension does not use cookies, does not collect, use, store, or transmit personal or any other information in any way. However, the 1C:Enterprise platform applications use the extension, therefore the extension might unintentionally gather user information, including the personal information. 1C:Enterprise extension does not store or transmit this information to any third party.",
+    "lastScraped": "19-8-2023 11:7:7",
+    "_id": "64e0863b3dca5c1884d41e7d"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "Kitspace 1-click BOM",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1clickbom/",
+    "publisher": "kitspace.org",
+    "category": "Search Tools , Shopping",
+    "rating": 0,
+    "ratedBy": 0,
+    "lastUpdated": "May 28, 2023",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/634/634060-64.png?modified=1577228638",
+    "installs": 213,
+    "description": "1-click BOM fills your shopping carts for you on sites like Digikey and Mouser, you simply paste from a spreadsheet or visit an online `.tsv` file. This way you can keep one bill of materials (BOM) that lets you and people you share the BOM with, quickly purchase items from multiple distributors.\n\nSupported distributors are:\nDigikey\nMouser\nFarnell/Element14\nNewark\nRS\nLCSC\n\n\n1clickBOM.com",
+    "lastScraped": "19-8-2023 11:7:10",
+    "_id": "64e0863e3dca5c1884d41e7e"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "AirAndScout 1ClickOrder - P2P Delivery!",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1clickorder-crowdshipping/",
+    "publisher": "https://www.airandscout.com",
+    "category": "Shopping , Social & Communication",
+    "rating": 0,
+    "ratedBy": 0,
+    "lastUpdated": "Jun 17, 2019",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2274/2274116-64.png?modified=b28c81d5",
+    "installs": 1,
+    "description": "https://www.airandscout.com - Crowdshipping Community\nShop anywhere abroad, Delivered Everywhere! Easiest way to get things from ABROAD! Connects SHOPPERS & TRAVELERS (carriers)\n====================\nThis extension allows 1-click order creation for products sold on Amazon, eBay, Apple and more ...\nPeer2Peer travelers visiting your country will make offers to buy your product and deliver it on their trip to your address\n\nHow the Firefox extension works:\n1. You may want to create an account at https://airandscout.com to shop any product on the internet.\n2. Install the extension and use the icon to 1-click create an order on airandscout.com via this extension.\n3. Add your delivery details, like your city and where your item is sold, qty, etc...\n4. Travelers visiting your country will make offers to buy your product and deliver it on their trip.",
+    "lastScraped": "19-8-2023 11:7:11",
+    "_id": "64e0863f3dca5c1884d41e7f"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "1-Click Ebay Snipe (Free, Unlimited)",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1clicksnipe/",
+    "publisher": "1ClickProduct",
+    "category": "Alerts & Updates , Shopping",
+    "rating": 4.6,
+    "ratedBy": 70,
+    "lastUpdated": "Nov 15, 2017",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/441/441294-64.png?modified=1510793008",
+    "installs": 147,
+    "description": "Click on any Ebay Auction to bid at the last second.\n\n1-Click Ebay Snipe automates the process of placing your Ebay auction bid in the closing few seconds. This increases your chance of winning and avoids any chance of bidding wars.\n\n• Free and Unlimited Snipes\n• We place your bid seconds before the auction closes\n• It's automatic (your computer does not need to be on)\n• You can track your auctions (notifies if you win or are outbid)\n• No download required (runs when your computer is off)\nYoubidder is free to use. Spread the word to Ebay users and help everyone get the price they want. AutoBid today with this Ebay Item Extension is a button that lets you instantly schedule snipes without entering the item ID or URL by hand.\n\nhttp://www.youbidder.com/HowItWorks\n\nAddon uses 3rd party site (www.youbidder.com) for operation.\n\nWikipedia:\neBay Inc. (/ˈiːˌbeɪ/ EE-bay, stylized as ebay) is a multinational e-commerce corporation, facilitating online consumer-to-consumer and business-to-consumer sales. It is headquartered in San Jose, California. eBay was founded by Pierre Omidyar in 1995, and became a notable success story of the dot-com bubble. Today eBay is a multibillion-dollar business with operations in about 30 countries.\n\nThe company manages eBay.com, an online auction and shopping website in which people and businesses buy and sell a broad variety of goods and services worldwide. In addition to its auction-style sales, the website has since expanded to include \"Buy It Now\" shopping; shopping by UPC, ISBN, or other kind of SKU number (via Half.com); online classified advertisements (via Kijiji or eBay Classifieds); online event ticket trading (via StubHub); and other services. It previously offered online money transfers (via PayPal, which was a wholly owned subsidiary of eBay from 2002 until 2015). The website is free to use for buyers, but sellers are charged fees for listing items after a limited number of free listings, and again when those items are sold.",
+    "lastScraped": "19-8-2023 11:7:14",
+    "_id": "64e086423dca5c1884d41e80"
+  },
+  {
+    "webstore": "Firefox Browser Add-Ons",
+    "name": "1clickVPN - Secure and Free VPN",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/1clickvpn-secure-and-free-vpn/",
+    "publisher": "1click VPN",
+    "category": "Privacy & Security",
+    "rating": 3.1,
+    "ratedBy": 18,
+    "lastUpdated": "Jan 18, 2022",
+    "image": "https://addons.mozilla.org/user-media/addon_icons/2737/2737199-64.png?modified=7659c4ad",
+    "installs": 1,
+    "description": "It's a free VPN without registration, credit cards and ads. In this way, we also ensure overall private and anonymous usage with premium security against hackers, data-snoopers, unauthorized surveillance or DDoS attacks.\n\nUnable to access some websites? Open all fringes of web browsing without any restriction absolutely secured and anonymously as well as unblock any website and receive all information from different sources.\n\nUsing 1clickVPN for quick access:\n\n1. Install extension to your browser.\n2. Open it.\n3. Click your desired country.\n4. Use our VPN to get access to sites you otherwise couldn't.\n\nWhy 1clickVPN:\n\n★ Free. No trial. No registration. No ads.\n★ Unlimited. No session, speed or bandwidth limitations.\n★ Simple. Easy use with one-click activation.\n★ Secured. Our strong SSL encryption will make you fully anonymous and secured.\n\n1clickVPN is the fastest and easy in using Proxy service starts working by one click in your browser. The friendly design allows you to change the current IP address by choosing another country from the list right in the extension to unlock websites that are prohibited in your location.\n\nIt's fully free VPN without registration, credit cards and ads. In this way, we also ensure overall private and anonymous usage with premium security against hackers, data-snoopers, unauthorized surveillance or DDoS attacks.\n\nPrivacy Policy - https://1clickvpn.net/privacy\n\n\nWhat is VPN and whom it will be helpful to. Introduction about private internet connection and areas of its use. Most common questions.\n\n\nWhat is a VPN connection?\n\nVPN is a Virtual Private Network that connects you to the encrypted secure network across the publick network connection. VPN masks the real IP address and location by creating a secure internet connection over a public wi-fi network. VPN is good for anonymously and privately browsing the web as VPN encrypts data with modern protocols.\n\nVPNs use virtual connections to create a private network. During the usage of a public wi-fi, VPN helps to keep your data safe from hackers and malware and protect data from unauthorized access.\n\n\nHow does VPN work?\n\nVPN sends your data through the encrypted tunnel that makes your connection private and securely. While you connect to one of our remote servers your real ip address is masked and all data goes securely to the final destination.\n\nVPN connection broadens a private network over a public network and allows users to send and receive requests over public networks as if their computers are directly connected to the private network.\n\n\nIs it safe to use a VPN connection?\n\nVPN connection uses the modern data encryption protocols. One of the main VPN functions is to encrypt user data and browsing history to protect them from hackers and ISPs. The core feature of a VPN is to hide real IP addresses of users and prevent anyone from tracking their online activity.\n\nWhy do I need to use a virtual private network?\n\nVPNs are good in protecting your data or masking real location when watching a movie from a streaming website that is prohibited in your country. A VPN connection hides your data traffic online and protects it from unwanted access. While you browse without a VPN connection the data can be viewed by anyone who has an intention to see it. With VPN, hackers and intruders cannot decrypt this data.\n\nCan I use a VPN server privately?\n\nVPN service provides private browser sessions, as with VPN connection your online activity is not stored or tracked and your IP address and physical location are hidden. All data and requests you send via encrypted network tunnel is securely shield from hackers and illegal trackers. Secure VPN connection protects a user’s activity while they browse the internet.\n\nIs it legal to connect to VPN?\n\nUsing Virtual private networks is legal and acceptable in the majority of countries. Big corporations often use the VPN to connect their employers to a private network for secure data transmitting and connecting them remotely to any sources. Anyway, you should use private networks according to the law and avoid illegal activity on the internet.",
+    "lastScraped": "19-8-2023 11:7:14",
+    "_id": "64e086423dca5c1884d41e81"
   }
 ]

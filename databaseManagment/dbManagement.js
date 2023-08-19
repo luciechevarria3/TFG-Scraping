@@ -101,11 +101,12 @@ const lookForChanges = (details) => {
   db.extensions.findOne({ webstore: webstore, url: details['url'] },
     async (err, doc) => {
       if (err) {
-        console.log("TRAY ERROR 3 " + err);
+        console.log("DB ERROR: FIND ONE 2 " + err);
       }
 
       else {
-        console.log("EXTENSIÓN: " + doc['name']);
+        let confirmationString = "EXTENSION: " + doc['name'];
+        // console.log("EXTENSIÓN: " + doc['name']);
         let updated = 0;
         for (let property of properties) {
 
@@ -118,11 +119,13 @@ const lookForChanges = (details) => {
 
         }
         if (updated == 0) {
-          console.log("No se ha actualizado nada.");
+          confirmationString += " -- nothing updated."
+          console.log(confirmationString);
         }
 
         else {
-          console.log("Extensión actualizada.");
+          confirmationString += " -- updated."
+          console.log(confirmationString);
 
         }
       }
@@ -140,11 +143,11 @@ const addDetailsToDB = (details) => {
   db.extensions.insert(details, async (err, result) => {
 
     if (err) {
-      console.log("TRAY ERROR 2 " + err);
+      console.log("DB ERROR: ADDING EXTENSION " + err);
     }
 
     else {
-      console.log("Extensión insertada: " + JSON.stringify(details['name']));
+      console.log("Extension ADDED: " + JSON.stringify(details['name']));
     }
 
     await db.close();
@@ -161,7 +164,7 @@ export const addDetails = (details) => {
   /// BUSCAR SI LA EXTENSIÓN EXISTE EN LA BBDD
   db.extensions.findOne({ url: details['url'] }, async (err, doc) => {
     if (err) {
-      console.log("TRAY ERROR 1 " + err);
+      console.log("DB ERROR: FIND ONE EXTENSION " + err);
     }
 
     else {
