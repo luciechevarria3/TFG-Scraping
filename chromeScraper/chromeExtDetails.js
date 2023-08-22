@@ -57,7 +57,9 @@ export async function getExtensionDetails(page) {
     let rating;
     isNaN(checkingRating) ? rating = 0 : rating = checkingRating;
 
-    const ratedBy = parseInt(nameAndImg.querySelector(".nAtiRe").textContent);
+    let ratedByText = nameAndImg.querySelector(".nAtiRe").textContent;
+    ratedByText = ratedByText.replaceAll(".", "");
+    const ratedBy = parseInt(ratedByText);
 
     // Descripción de la extensión
     let description = document.querySelector("[itemprop=description");
@@ -73,6 +75,8 @@ export async function getExtensionDetails(page) {
         .querySelector(".e-f-ih")
         .textContent.match(/\d+\+?/g)
         .join(".");
+      installs = installs.replaceAll(".", "");
+      installs = parseInt(installs);
     } catch (error) {
       installs = 'Unavailable';
     }

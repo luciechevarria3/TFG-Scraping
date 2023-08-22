@@ -27,8 +27,26 @@ export async function getExtensionDetails(page) {
       const ratedBy = parseInt(infoDiv.querySelectorAll("div")[5].getAttribute("aria-label").split(" ")[7]); // Nº personas que han valorado
       const description = document.querySelector("pre").textContent; // Descripción de la extensión
       const image = infoDiv.querySelector("img").src; // Guardar el src de la imagen de la extensión
-      let installs = infoDiv.querySelector("#activeInstallText").textContent.replaceAll(/([a-zA-Z\s])/g, ""); // Número de instalaciones activas
-      // installs = parseInt(installs);
+
+      let installsText = infoDiv.querySelector("#activeInstallText").textContent.replaceAll(/([a-zA-Z\s])/g, ""); // Número de instalaciones activas
+      let installs = installsText.replace(",", "");
+      installs = installs.replaceAll(/[\u{0080}-\u{FFFF}]/gu, "");
+      installs = parseInt(installs);
+
+      let availability;
+      try {
+        availability = document.querySelector(".c01100").textContent;
+        if (availability === "Get") {
+          availability = "Available";
+        }
+        else {
+          availability = "Unavailable";
+        }
+      }
+
+      catch (error) {
+        availability = "AVAILABILITY ERROR";
+      }
 
       // Última vez actualizado
       const lastUpdated = document.querySelector("span#lastUpdatedOnHeader").textContent;
@@ -54,6 +72,7 @@ export async function getExtensionDetails(page) {
         lastUpdated,
         image,
         installs,
+        availability,
         description,
         lastScraped,
       };

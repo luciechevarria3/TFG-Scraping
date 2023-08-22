@@ -68,7 +68,23 @@ export async function getExtensionDetails(page) {
 
     // Nª de veces que la ext. ha sido instalada
     let installs = document.querySelector('.MetadataCard.AddonMeta-overallRating').childNodes[0].firstChild.textContent;
-    installs = parseInt(installs);
+    installs = installs.replaceAll(",", "");
+    if (installs === "") {
+      installs = 0;
+    }
+    else {
+      installs = parseInt(installs);
+    }
+
+    // Disponibilidad de la extensión
+    let availabiltyText = document.querySelector(".InstallButtonWrapper-download");
+    let availability;
+    if (availabiltyText) {
+      availability = "Available";
+    }
+    else {
+      availability = "Unavailable";
+    }
 
     // Descripción de la extensión
     let description = '';
@@ -97,6 +113,7 @@ export async function getExtensionDetails(page) {
       lastUpdated,
       image,
       installs,
+      availability,
       description,
       lastScraped,
     };

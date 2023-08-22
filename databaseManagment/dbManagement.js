@@ -1,5 +1,6 @@
 import mongojs from "mongojs";
 
+
 /**
  * Función para actualizar los detalles de una extensión de la BBDD.
  * @param {*} webstore Webstore de la extensión
@@ -8,7 +9,8 @@ import mongojs from "mongojs";
  * @param {*} newDetail Nuevo valor con el que se va a actualizar la BBDD.
  */
 const updateDetails = (webstore, url, detailName, newDetail) => {
-  const db = mongojs("extensionsDetails", ["extensions"]);
+  // const db = mongojs("extensionsDetails", ["extensions"]);
+  const db = mongojs("extensionsDetails", ["pruebaextensions"]);
   switch (detailName) {
     case 'name':
       db.extensions.update({ webstore: webstore, url: url }, { $set: { name: newDetail } }, function () {
@@ -97,8 +99,10 @@ const lookForChanges = (details) => {
   const properties = Object.getOwnPropertyNames(details);
   const webstore = details['webstore'];
   const url = details['url'];
-  const db = mongojs("extensionsDetails", ["extensions"]);
-  db.extensions.findOne({ webstore: webstore, url: details['url'] },
+  const db = mongojs("extensionsDetails", ["pruebaextensions"]);
+  // const db = mongojs("extensionsDetails", ["extensions"]);
+  // db.extensions.findOne({ webstore: webstore, url: details['url'] },
+  db.pruebaextensions.findOne({ webstore: webstore, url: details['url'] },
     async (err, doc) => {
       if (err) {
         console.log("DB ERROR: FIND ONE 2 " + err);
@@ -120,12 +124,12 @@ const lookForChanges = (details) => {
         }
         if (updated == 0) {
           confirmationString += " -- nothing updated."
-          console.log(confirmationString);
+          // console.log(confirmationString);
         }
 
         else {
           confirmationString += " -- updated."
-          console.log(confirmationString);
+          // console.log(confirmationString);
 
         }
       }
@@ -139,16 +143,18 @@ const lookForChanges = (details) => {
  * @param {*} details Los detalles de la extensión (Objeto JS).
  */
 const addDetailsToDB = (details) => {
-  const db = mongojs("extensionsDetails", ["extensions"]);
-  db.extensions.insert(details, async (err, result) => {
+  const db = mongojs("extensionsDetails", ["pruebaextensions"]);
+  // const db = mongojs("extensionsDetails", ["extensions"]);
+  // db.extensions.insert(details, async (err, result) => {
+  db.pruebaextensions.insert(details, async (err, result) => {
 
     if (err) {
       console.log("DB ERROR: ADDING EXTENSION " + err);
     }
 
-    else {
-      console.log("Extension ADDED: " + JSON.stringify(details['name']));
-    }
+    // else {
+    //   console.log("Extension ADDED: " + JSON.stringify(details['name']));
+    // }
 
     await db.close();
   });
@@ -159,10 +165,12 @@ const addDetailsToDB = (details) => {
  * @param {*} details Los detalles de la extensión (objeto JS).
  */
 export const addDetails = (details) => {
-  const db = mongojs("extensionsDetails", ["extensions"]);
+  const db = mongojs("extensionsDetails", ["pruebaextensions"]);
 
   /// BUSCAR SI LA EXTENSIÓN EXISTE EN LA BBDD
-  db.extensions.findOne({ url: details['url'] }, async (err, doc) => {
+  db.pruebaextensions.findOne({ url: details['url'] }, async (err, doc) => {
+
+    // db.extensions.findOne({ url: details['url'] }, async (err, doc) => {
     if (err) {
       console.log("DB ERROR: FIND ONE EXTENSION " + err);
     }
