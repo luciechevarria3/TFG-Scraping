@@ -13,73 +13,85 @@ const updateDetails = (webstore, url, detailName, newDetail) => {
   const db = mongojs("extensionsDetails", ["pruebaextensions"]);
   switch (detailName) {
     case 'name':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { name: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { name: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { name: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'url':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { url: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { url: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { url: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'publisher':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { publisher: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { publisher: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { publisher: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'category':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { category: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { category: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { category: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'rating':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { rating: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { rating: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { rating: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'lastUpdated':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { lastUpdated: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { lastUpdated: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { lastUpdated: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'image':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { image: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { image: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { image: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'installs':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { installs: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { installs: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { installs: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'description':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { description: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { description: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { description: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'lastScraped':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { lastScraped: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { lastScraped: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { lastScraped: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'availability':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { availability: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { availability: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { availability: newDetail } }, function () {
         db.close();
       });
       break;
 
     case 'reviews':
-      db.extensions.update({ webstore: webstore, url: url }, { $set: { reviews: newDetail } }, function () {
+      // db.extensions.update({ webstore: webstore, url: url }, { $set: { reviews: newDetail } }, function () {
+      db.pruebaextensions.update({ webstore: webstore, url: url }, { $set: { reviews: newDetail } }, function () {
         db.close();
       });
       break;
