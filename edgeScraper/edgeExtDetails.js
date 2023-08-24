@@ -21,7 +21,7 @@ export async function getExtensionDetails(page) {
       const infoDiv = document.querySelector("[role=main]").children[1]; // Guardar la referencia al div que contiene información importante de la extensión
       const name = infoDiv.querySelector("h1").textContent; // Nombre de la extensión
       const url = document.URL;
-      const publisher = infoDiv.querySelectorAll("div")[2].children[0].textContent; // Nombre del publisher
+      const publisher = document.querySelector(".c0146").firstChild.textContent // Nombre del publisher
       const category = infoDiv.querySelector("#categoryText").textContent; // Categoría de la extensión
       const rating = parseInt(infoDiv.querySelectorAll("div")[5].getAttribute("aria-label").split(" ")[1]); // Rating de la extensión
       const ratedBy = parseInt(infoDiv.querySelectorAll("div")[5].getAttribute("aria-label").split(" ")[7]); // Nº personas que han valorado
@@ -36,7 +36,7 @@ export async function getExtensionDetails(page) {
       let availability;
       try {
         availability = document.querySelector(".c01100").textContent;
-        if (availability === "Get") {
+        if (availability.includes("Get")) {
           availability = "Available";
         }
         else {
