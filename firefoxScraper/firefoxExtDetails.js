@@ -103,7 +103,7 @@ export async function getExtensionDetails(page) {
     let lastScraped = `${day}-${month}-${year} ${time}`;
 
     return {
-      webstore: 'Firefox Browser Add-Ons',
+      webstore: 'Mozilla Firefox',
       name,
       url,
       publisher,

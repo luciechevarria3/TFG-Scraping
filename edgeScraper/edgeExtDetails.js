@@ -62,7 +62,7 @@ export async function getExtensionDetails(page) {
       let lastScraped = `${day}-${month}-${year} ${time}`;
 
       const extension = {
-        webstore: "Microsoft Edge Store",
+        webstore: "Microsoft Edge",
         name,
         url,
         publisher,

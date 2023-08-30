@@ -95,7 +95,7 @@ export async function getExtensionDetails(page) {
     let lastScraped = `${day}-${month}-${year} ${time}`;
 
     return {
-      webstore: "Chrome Web Store",
+      webstore: "Google Chrome",
       name,
       url,
       publisher,
