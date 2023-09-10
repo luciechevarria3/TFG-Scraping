@@ -121,7 +121,7 @@ const lookForChanges = (details) => {
       }
 
       else {
-        let confirmationString = "EXTENSION: " + doc['name'];
+        // let confirmationString = "EXTENSION: " + doc['name'];
         // console.log("EXTENSIÓN: " + doc['name']);
         let updated = 0;
         for (let property of properties) {
@@ -135,13 +135,13 @@ const lookForChanges = (details) => {
 
         }
         if (updated == 0) {
-          confirmationString += " -- nothing updated."
-          // console.log(confirmationString);
+          // confirmationString += " -- nothing updated."
+          console.log("UPDATED == 0");
         }
 
         else {
-          confirmationString += " -- updated."
-          // console.log(confirmationString);
+          // confirmationString += " -- updated."
+          console.log("UPDATED == 1");
 
         }
       }

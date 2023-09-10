@@ -39,12 +39,7 @@ export async function getExtensionDetails(page) {
     }
 
     // Categoría de la extensión
-    const categoryNodes = document.querySelectorAll(
-      ".AddonMoreInfo-related-category-link"
-    );
-    let categories = [];
-    categoryNodes.forEach((entry) => categories.push(entry.text));
-    let category = categories.join(" , ");
+    const category = document.querySelectorAll(".AddonMoreInfo-related-category-link")[0].textContent.toLowerCase();
 
     // Rating de la extensión
     let rating = document.querySelector('.AddonMeta-rating-title').textContent

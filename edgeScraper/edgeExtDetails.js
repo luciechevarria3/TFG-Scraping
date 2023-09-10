@@ -22,7 +22,7 @@ export async function getExtensionDetails(page) {
       const name = infoDiv.querySelector("h1").textContent; // Nombre de la extensión
       const url = document.URL;
       const publisher = document.querySelector(".c0146").firstChild.textContent // Nombre del publisher
-      const category = infoDiv.querySelector("#categoryText").textContent; // Categoría de la extensión
+      const category = infoDiv.querySelector("#categoryText").textContent.toLowerCase(); // Categoría de la extensión
       const rating = parseInt(infoDiv.querySelectorAll("div")[5].getAttribute("aria-label").split(" ")[1]); // Rating de la extensión
       const ratedBy = parseInt(infoDiv.querySelectorAll("div")[5].getAttribute("aria-label").split(" ")[7]); // Nº personas que han valorado
       const description = document.querySelector("pre").textContent; // Descripción de la extensión

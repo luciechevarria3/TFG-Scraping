@@ -47,7 +47,7 @@ export async function getExtensionDetails(page) {
     const lastUpdated = additionalInfo.querySelector('.C-b-p-D-Xe.h-C-b-p-D-xh-hh').textContent;
 
     // Categoría de la extensión
-    const category = document.querySelector('.e-f-yb-w .e-f-y').textContent;
+    const category = document.querySelector('.e-f-yb-w .e-f-y').textContent.toLowerCase();
 
     // Rating (en formato texto) de la extensión
     const ratingArray = nameAndImg.querySelector(".Y89Uic").title.split(" ");
