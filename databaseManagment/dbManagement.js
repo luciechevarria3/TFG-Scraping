@@ -114,7 +114,7 @@ const lookForChanges = (details) => {
   const db = mongojs("extensionsDetails", ["pruebaextensions"]);
   // const db = mongojs("extensionsDetails", ["extensions"]);
   // db.extensions.findOne({ webstore: webstore, url: details['url'] },
-  db.pruebaextensions.findOne({ webstore: webstore, url: details['url'] },
+  db.pruebaextensions.findOne({ webstore: webstore, url: url },
     async (err, doc) => {
       if (err) {
         console.log("DB ERROR: FIND ONE 2 " + err);
@@ -134,16 +134,16 @@ const lookForChanges = (details) => {
           }
 
         }
-        if (updated == 0) {
-          // confirmationString += " -- nothing updated."
-          console.log("UPDATED == 0");
-        }
+        // if (updated == 0) {
+        //   // confirmationString += " -- nothing updated."
+        //   console.log("UPDATED == 0");
+        // }
 
-        else {
-          // confirmationString += " -- updated."
-          console.log("UPDATED == 1");
+        // else {
+        //   // confirmationString += " -- updated."
+        //   console.log("UPDATED == 1");
 
-        }
+        // }
       }
       await db.close();
     }

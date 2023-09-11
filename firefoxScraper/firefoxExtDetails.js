@@ -15,7 +15,7 @@ export async function getExtensionDetails(page) {
     const url = await page.url();
 
     return {
-      webstore: "Firefox Browser Add-Ons",
+      webstore: "Mozilla Firefox",
       url,
       error: "Extension Not Available",
     };

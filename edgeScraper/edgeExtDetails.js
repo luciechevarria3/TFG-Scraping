@@ -83,7 +83,7 @@ export async function getExtensionDetails(page) {
   } catch (error) {
     const url = await page.url();
     return {
-      webstore: "Microsoft Edge Store",
+      webstore: "Microsoft Edge",
       url,
       error: "Extension Not Available",
     };

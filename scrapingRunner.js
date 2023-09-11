@@ -5,7 +5,7 @@
 // Posibilidad de elegir qué scraper o scrapers ejecutar??
 import { exec } from "child_process";
 
-const nExts = 4000;
+const nExts = 100;
 
 /// PROCESO PARA EJECUTAR SCRAPER DE CHROME (argumento: nº de extensiones a scrapear)
 const chromeChild = exec(

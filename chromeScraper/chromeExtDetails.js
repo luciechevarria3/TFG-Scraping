@@ -15,7 +15,7 @@ export async function getExtensionDetails(page) {
     const url = await page.url();
 
     return {
-      webstore: "Chrome Web Store",
+      webstore: "Google Chrome",
       url,
       error: "Extension Not Available",
     };
